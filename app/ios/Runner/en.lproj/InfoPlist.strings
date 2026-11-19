@@ -1,0 +1,4 @@
+/* 権限の説明（英語）。 */
+"NSPhotoLibraryUsageDescription" = "Used to choose a photo for the cover of your favorite's page.";
+/* ホーム画面に出るアプリ名（英語）。Info.plist と同じ。 */
+"CFBundleDisplayName" = "Oiboshi";

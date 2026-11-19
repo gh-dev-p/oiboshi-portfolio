@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 配信開始の通知のチャンネル（端末の設定に出る名前） -->
+    <string name="live_notification_channel_name">配信開始の通知</string>
+    <string name="live_notification_channel_description">推しが配信を始めたときに、お知らせします。</string>
+</resources>

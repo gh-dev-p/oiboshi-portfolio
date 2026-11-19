@@ -1,0 +1,5 @@
+/* 権限の説明（日本語）。Info.plist と同じ文言。 */
+"NSPhotoLibraryUsageDescription" = "推しのページのカバーにする写真を選ぶために使います。";
+/* ホーム画面に出るアプリ名（日本語）。英語などは Info.plist の Oiboshi のまま。 */
+"CFBundleDisplayName" = "追星";
+"CFBundleName" = "追星";

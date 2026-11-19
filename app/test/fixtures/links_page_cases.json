@@ -1,0 +1,200 @@
+{
+  "about": "リンク集のページの並び（届ける・広める仕様書 4.6.7）を、アプリ（CreatorLinkRules.pageLinks）とウェブ（公開サイトのリポジトリ（別管理） の oiboshi/worker の pageLinks）で同じ結果にするための表。両方のリポジトリに同じ中身で置く（アプリは app/test/fixtures/、ウェブは oiboshi/worker/）。直すときは両方を直す。links はリンク集の登録順、buttons はページに出すボタンの並び。icon はボタンの左のアイコン（null はふつうのリンクの印）。SNS のアイコンの列は v1.1.0 では出さない（次の版で考える）。",
+  "cases": [
+    {
+      "name": "本人の画面（2026-11-19）：SNS とほかのリンクが混ざっても、全部ボタンで登録した順（ツイキャスはロゴ付き、Twitch はロゴなし）",
+      "creatorId": "test0",
+      "links": [
+        {
+          "id": "x",
+          "title": "X",
+          "url": "https://x.com/PeRRiiOfficial"
+        },
+        {
+          "id": "cas",
+          "title": "ツイキャス",
+          "url": "https://twitcasting.tv/perrii"
+        },
+        {
+          "id": "yt",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/channel/UCperrii"
+        },
+        {
+          "id": "tw",
+          "title": "Twitch",
+          "url": "https://www.twitch.tv/perrii"
+        },
+        {
+          "id": "inv",
+          "title": "追星ですべてを受け取る",
+          "url": "https://oiboshi.perrii.app/c/test0?invite=1"
+        }
+      ],
+      "buttons": [
+        {
+          "id": "x",
+          "icon": "x"
+        },
+        {
+          "id": "cas",
+          "icon": "twitcasting"
+        },
+        {
+          "id": "yt",
+          "icon": "youtube"
+        },
+        {
+          "id": "tw",
+          "icon": null
+        },
+        {
+          "id": "inv",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "name": "行き先のアイコン（YouTube・X・Instagram・Spotify・Discord）。Twitch・LINE・知らない行き先は、ふつうのリンクの印",
+      "creatorId": "c1",
+      "links": [
+        {
+          "id": "a",
+          "title": "ファンクラブ",
+          "url": "https://fc.example.com/"
+        },
+        {
+          "id": "b",
+          "title": "切り抜き",
+          "url": "https://youtu.be/abc"
+        },
+        {
+          "id": "c",
+          "title": "旧アカ",
+          "url": "https://twitter.com/old"
+        },
+        {
+          "id": "d",
+          "title": "インスタ",
+          "url": "https://www.instagram.com/a/"
+        },
+        {
+          "id": "e",
+          "title": "曲",
+          "url": "https://open.spotify.com/artist/a"
+        },
+        {
+          "id": "f",
+          "title": "サーバー",
+          "url": "https://discord.gg/abc"
+        },
+        {
+          "id": "g",
+          "title": "Twitch",
+          "url": "https://www.twitch.tv/a"
+        },
+        {
+          "id": "h",
+          "title": "LINE",
+          "url": "https://line.me/R/ti/p/@a"
+        }
+      ],
+      "buttons": [
+        {
+          "id": "a",
+          "icon": null
+        },
+        {
+          "id": "b",
+          "icon": "youtube"
+        },
+        {
+          "id": "c",
+          "icon": "x"
+        },
+        {
+          "id": "d",
+          "icon": "instagram"
+        },
+        {
+          "id": "e",
+          "icon": "spotify"
+        },
+        {
+          "id": "f",
+          "icon": "discord"
+        },
+        {
+          "id": "g",
+          "icon": null
+        },
+        {
+          "id": "h",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "name": "同じ SNS のページを指すリンクが2つあっても、両方ボタンにする（大文字と小文字・末尾の / が違っても）",
+      "creatorId": "c3",
+      "links": [
+        {
+          "id": "fc",
+          "title": "ファンクラブ",
+          "url": "https://fc.example.com/"
+        },
+        {
+          "id": "y1",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/channel/UC123"
+        },
+        {
+          "id": "y2",
+          "title": "チャンネル",
+          "url": "https://WWW.youtube.com/channel/uc123/"
+        }
+      ],
+      "buttons": [
+        {
+          "id": "fc",
+          "icon": null
+        },
+        {
+          "id": "y1",
+          "icon": "youtube"
+        },
+        {
+          "id": "y2",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "https でない URL は出さない",
+      "creatorId": "c4",
+      "links": [
+        {
+          "id": "http",
+          "title": "古い",
+          "url": "http://old.example.com/"
+        },
+        {
+          "id": "tw",
+          "title": "Twitch",
+          "url": "https://www.twitch.tv/a"
+        },
+        {
+          "id": "yt",
+          "title": "YouTube",
+          "url": "http://www.youtube.com/channel/UC123"
+        }
+      ],
+      "buttons": [
+        {
+          "id": "tw",
+          "icon": null
+        }
+      ]
+    }
+  ]
+}

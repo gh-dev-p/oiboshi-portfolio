@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- dev 用のアプリ（com.example.oiboshi.dev）の権限。本番の Runner.entitlements から、
+     Associated Domains（oiboshi.perrii.app の共有のリンク）だけを外す。共有のページの AASA は本番のアプリだけを指すため（環境構成 10）。 -->
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android Studio のビルド成果物
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# シンボル・難読化
+app.*.symbols
+app.*.map.json

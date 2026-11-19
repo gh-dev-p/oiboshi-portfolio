@@ -1,0 +1,33 @@
+# OS・エディタ
+.DS_Store
+*.swp
+*.iml
+*.ipr
+*.iws
+.idea/
+.history
+
+# 接続設定（シークレットを含む）。ひな形（*.example.json）だけを入れる
+dart_defines*.json
+!dart_defines*.example.json
+.env
+.env.*
+
+# Firebase の接続設定
+GoogleService-Info.plist
+google-services.json
+firebase_options.dart
+
+# 署名
+*.keystore
+*.jks
+key.properties
+*.p12
+*.p8
+*.mobileprovision
+*.cer
+
+# ビルドの生成物
+build/
+.dart_tool/
+node_modules/

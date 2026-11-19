@@ -1,0 +1,10 @@
+# dev のアプリのアイコン（環境構成 10）。本番の絵（assets/icon/app_icon.png）の下に、赤い「DEV」の帯を付けたもの。
+# 作り直すときは、app/ で `dart run flutter_launcher_icons`。ios/Runner.xcodeproj/project.pbxproj を書き換える（関係ない設定まで AppIcon-dev にする）ので、その変更は戻す。
+flutter_launcher_icons:
+  image_path: assets/icon/app_icon_dev.png
+  ios: true
+  remove_alpha_ios: true
+  android: true
+  adaptive_icon_background: "#FDF9F3"
+  adaptive_icon_foreground: assets/icon/app_icon_dev.png
+  adaptive_icon_foreground_inset: 16

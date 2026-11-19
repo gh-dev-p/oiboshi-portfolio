@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+// Flavor「prod」の Debug（環境構成 10）。Xcode から直接ビルドしても、この Flavor のエントリポイントを使う。
+FLUTTER_TARGET=lib/main_prod.dart
+APP_FLAVOR=prod
+// Info.plist の CFBundleURLSchemes（共有のページの「アプリで開く」）。dev は本番のリンクを横取りしないよう別にする。
+APP_URL_SCHEME=oiboshi

@@ -1,0 +1,3019 @@
+{
+  "@@locale": "ja",
+  "appTitle": "追星",
+  "@appTitle": {
+    "description": "アプリの名前（MaterialApp.title）"
+  },
+  "startupErrorTitle": "起動できませんでした",
+  "@startupErrorTitle": {
+    "description": "起動時のエラーの画面（bootstrap.dart）"
+  },
+  "commonCancel": "キャンセル",
+  "@commonCancel": {
+    "description": "共通：キャンセルのボタン"
+  },
+  "commonClose": "閉じる",
+  "@commonClose": {
+    "description": "共通：閉じるのボタン"
+  },
+  "commonSave": "保存",
+  "@commonSave": {
+    "description": "共通：保存のボタン"
+  },
+  "commonBack": "戻る",
+  "@commonBack": {
+    "description": "共通：戻るのボタン（ツールチップ）"
+  },
+  "commonSearch": "検索",
+  "@commonSearch": {
+    "description": "共通：検索フィールドのプレースホルダ"
+  },
+  "commonRetry": "再試行",
+  "@commonRetry": {
+    "description": "共通：スナックバーの再試行"
+  },
+  "commonTryAgain": "もう一度試す",
+  "@commonTryAgain": {
+    "description": "共通：読み込みの失敗のときのボタン（StateView）"
+  },
+  "commonNotFound": "見つかりませんでした",
+  "@commonNotFound": {
+    "description": "共通：検索の結果が0件"
+  },
+  "commonPageOpenFailed": "ページを開けませんでした",
+  "@commonPageOpenFailed": {
+    "description": "共通：外部のページを開けなかったときのスナックバー"
+  },
+  "commonRefreshFailed": "更新できませんでした",
+  "@commonRefreshFailed": {
+    "description": "共通：読み直しの失敗のスナックバー"
+  },
+  "commonLoadFailedTitle": "読み込めませんでした",
+  "@commonLoadFailedTitle": {
+    "description": "共通：読み込みの失敗の見出し（StateView）"
+  },
+  "commonLoadFailedMessage": "通信の状態を確認して、もう一度お試しください。",
+  "@commonLoadFailedMessage": {
+    "description": "共通：読み込みの失敗の説明（StateView）"
+  },
+  "commonSaveFailed": "保存できませんでした",
+  "@commonSaveFailed": {
+    "description": "共通：保存の失敗のスナックバー"
+  },
+  "commonSettingChangeFailed": "設定を変えられませんでした",
+  "@commonSettingChangeFailed": {
+    "description": "共通：設定の変更の失敗のスナックバー"
+  },
+  "commonNotificationSettingChangeFailed": "通知の設定を変えられませんでした",
+  "@commonNotificationSettingChangeFailed": {
+    "description": "共通：通知の設定の変更の失敗のスナックバー"
+  },
+  "commonFollow": "フォロー",
+  "@commonFollow": {
+    "description": "共通：フォローのボタン（未フォロー）"
+  },
+  "commonFollowing": "フォロー中",
+  "@commonFollowing": {
+    "description": "共通：フォローのボタン（フォロー中）"
+  },
+  "commonFollowChangeFailed": "フォローを変えられませんでした",
+  "@commonFollowChangeFailed": {
+    "description": "共通：フォローの変更の失敗のスナックバー"
+  },
+  "commonTabHome": "ホーム",
+  "@commonTabHome": {
+    "description": "共通：下部ナビのタブの読み上げの名前（ホーム）"
+  },
+  "commonTabSchedule": "スケジュール",
+  "@commonTabSchedule": {
+    "description": "共通：下部ナビのタブの読み上げの名前（スケジュール）"
+  },
+  "commonTabOshiList": "推しリスト",
+  "@commonTabOshiList": {
+    "description": "共通：下部ナビのタブの読み上げの名前（推しリスト）"
+  },
+  "commonTabSettings": "設定",
+  "@commonTabSettings": {
+    "description": "共通：下部ナビの設定のタブ（読み上げの名前）"
+  },
+  "commonFixedViewer": "固定ビューア",
+  "@commonFixedViewer": {
+    "description": "共通：下部ナビの、固定ビューアを出す・消すスイッチ（読み上げ）"
+  },
+  "commonFixedViewerPlayLive": "配信に切り替える",
+  "@commonFixedViewerPlayLive": {
+    "description": "共通：固定ビューアの帯の、推しの動画から配信中の推しの配信に切り替えるボタン（ツールチップ）"
+  },
+  "fixedViewerEmptyMessage": "配信や動画を投稿している推しを見つけよう",
+  "@fixedViewerEmptyMessage": {
+    "description": "固定ビューア：スイッチを入れたのに、流す配信・動画がないときの案内"
+  },
+  "fixedViewerModeLive": "配信モードに切り替えました",
+  "@fixedViewerModeLive": {
+    "description": "固定ビューア：配信を流すようになったときのスナックバー"
+  },
+  "fixedViewerNoLive": "配信中の推しはいません",
+  "@fixedViewerNoLive": {
+    "description": "固定ビューア：下部ナビのスイッチを引っ張って配信に切り替えようとしたが、配信中の推しがいないときのスナックバー"
+  },
+  "fixedViewerControlPlay": "再生",
+  "@fixedViewerControlPlay": {
+    "description": "固定ビューア：下部ナビのコントローラーの長押しのヒント（上へはじくと流す）の読み上げ"
+  },
+  "fixedViewerControlPause": "停止",
+  "@fixedViewerControlPause": {
+    "description": "固定ビューア：下部ナビのコントローラーの長押しのヒント（上へはじくと止める）の読み上げ"
+  },
+  "fixedViewerControlNext": "次へ",
+  "@fixedViewerControlNext": {
+    "description": "固定ビューア：下部ナビのコントローラーの長押しのヒント（右へはじくと次の動画・配信）の読み上げ"
+  },
+  "fixedViewerControlPrevious": "前へ",
+  "@fixedViewerControlPrevious": {
+    "description": "固定ビューア：下部ナビのコントローラーの長押しのヒント（左へはじくと前の動画・配信）の読み上げ"
+  },
+  "fixedViewerPaused": "停止しました",
+  "@fixedViewerPaused": {
+    "description": "固定ビューア：下部ナビのコントローラーで止めたときのスナックバー"
+  },
+  "fixedViewerResumed": "再生を再開しました",
+  "@fixedViewerResumed": {
+    "description": "固定ビューア：下部ナビのコントローラーで流し直したときのスナックバー"
+  },
+  "fixedViewerModeShuffle": "動画シャッフルモードに切り替えました",
+  "@fixedViewerModeShuffle": {
+    "description": "固定ビューア：推しの動画のランダム再生を流すようになったときのスナックバー"
+  },
+  "fixedViewerLiveEndedShuffle": "配信が終わりました。動画シャッフルモードに切り替えました",
+  "@fixedViewerLiveEndedShuffle": {
+    "description": "固定ビューア：流していた配信が終わり、推しの動画のランダム再生に移ったときのスナックバー"
+  },
+  "commonNotSet": "未設定",
+  "@commonNotSet": {
+    "description": "共通：値が未設定"
+  },
+  "commonToday": "今日",
+  "@commonToday": {
+    "description": "共通：今日"
+  },
+  "commonTomorrow": "明日",
+  "@commonTomorrow": {
+    "description": "共通：明日"
+  },
+  "commonAllDay": "終日",
+  "@commonAllDay": {
+    "description": "共通：時刻のない予定"
+  },
+  "commonLive": "配信",
+  "@commonLive": {
+    "description": "共通：生配信（コンテンツの種類）。タイトルのない配信の表示名にも使う"
+  },
+  "commonPost": "投稿",
+  "@commonPost": {
+    "description": "共通：投稿（コンテンツの種類）"
+  },
+  "commonNoPostsYet": "まだ投稿がありません",
+  "@commonNoPostsYet": {
+    "description": "共通：投稿が0件"
+  },
+  "commonComingSoon": "準備中",
+  "@commonComingSoon": {
+    "description": "共通：まだ対応していないプラットフォームの印"
+  },
+  "commonSuspended": "停止中",
+  "@commonSuspended": {
+    "description": "共通：運営が停止した発信者のチップ"
+  },
+  "commonOpenCreatorPage": "発信者のページを開く",
+  "commonOpenPost": "投稿を開く",
+  "@commonOpenPost": {
+    "description": "固定ビューア：投稿の動画の帯の、ビューアで開くボタン"
+  },
+  "@commonOpenCreatorPage": {
+    "description": "共通：発信者ページへのボタン"
+  },
+  "commonEvent": "イベント",
+  "@commonEvent": {
+    "description": "予定の種類の印（イベントの公演）。予定の詳細（シート）に出す"
+  },
+  "commonLink": "リンク",
+  "commonTicket": "チケット",
+  "@commonTicket": {
+    "description": "共通：イベントの公演のリンク（ファンに見せるところ）"
+  },
+  "scheduleDetailOpenTicket": "チケットを見る",
+  "@scheduleDetailOpenTicket": {
+    "description": "予定の詳細：イベントの公演のリンクを開くボタン"
+  },
+  "@commonLink": {
+    "description": "共通：リンク"
+  },
+  "commonLivePin": "固定ビューアで流す",
+  "@commonLivePin": {
+    "description": "共通：埋め込みビューアの配信や、投稿ビューアの動画を、固定ビューアで流すボタン（ツールチップ）"
+  },
+  "commonLivePrevious": "前の配信",
+  "@commonLivePrevious": {
+    "description": "共通：配信ビューアを前の推しの配信に切り替える矢印（ツールチップ）"
+  },
+  "commonLiveNext": "次の配信",
+  "@commonLiveNext": {
+    "description": "共通：配信ビューアを次の推しの配信に切り替える矢印（ツールチップ）"
+  },
+  "commonLiveOpenCreator": "発信者ページを開く",
+  "@commonLiveOpenCreator": {
+    "description": "共通：配信ビューアの帯の推しのアイコン（ツールチップ）"
+  },
+  "timeJustNow": "たった今",
+  "@timeJustNow": {
+    "description": "相対時刻：1分未満"
+  },
+  "timeMinutesAgo": "{count}分前",
+  "@timeMinutesAgo": {
+    "description": "相対時刻：分",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count}時間前",
+  "@timeHoursAgo": {
+    "description": "相対時刻：時間",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count}日前",
+  "@timeDaysAgo": {
+    "description": "相対時刻：日",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeStarted": "開始済み",
+  "@timeStarted": {
+    "description": "予定までの残り時間：開始済み"
+  },
+  "timeSoon": "まもなく",
+  "@timeSoon": {
+    "description": "予定までの残り時間：1時間未満"
+  },
+  "timeHoursLeft": "あと{count}時間",
+  "@timeHoursLeft": {
+    "description": "予定までの残り時間：今日",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysLater": "{count}日後",
+  "@timeDaysLater": {
+    "description": "予定までの残り時間：2日以上先",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "priceYen": "{amount}円",
+  "@priceYen": {
+    "description": "日本円の金額（ストアがくれない金額。X の連携の差額など）",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "snsServiceName": "{service, select, twitcasting{ツイキャス} youtube{YouTube} instagram{Instagram} twitch{Twitch} x{X} other{{service}}}",
+  "@snsServiceName": {
+    "description": "SNS の名前（SnsService.name）",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "postKindName": "{kind, select, video{動画} short{ショート} image{画像} reel{リール} carousel{カルーセル} other{投稿}}",
+  "@postKindName": {
+    "description": "投稿の種類（PostKind.name）",
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "displayContentName": "{content, select, live{配信} video{動画・ショート} post{投稿} schedule{予約} other{{content}}}",
+  "@displayContentName": {
+    "description": "追星に出す内容の種類（DisplayContent.name）",
+    "placeholders": {
+      "content": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorPlanName": "{plan, select, standard{基本プラン} complimentary{永年無料} admin{運営} debug{確認用} other{{plan}}}",
+  "@creatorPlanName": {
+    "description": "発信者のプラン（CreatorPlan.name）",
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "displayModeName": "{mode, select, system{端末の設定に従う} light{ライト} dark{ダーク} other{{mode}}}",
+  "@displayModeName": {
+    "description": "画面モード（DisplayMode.name）",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "appLanguageName": "{language, select, system{端末の設定に従う} ja{日本語} en{English} other{{language}}}",
+  "@appLanguageName": {
+    "description": "表示言語（AppLanguage.name）。日本語・English は、どの言語でもその言語の表記で出す",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "commonTermsOfService": "利用規約",
+  "@commonTermsOfService": {
+    "description": "共通：利用規約（ウェルカム・設定・プランのリンク）"
+  },
+  "commonPrivacyPolicy": "プライバシーポリシー",
+  "@commonPrivacyPolicy": {
+    "description": "共通：プライバシーポリシー（ウェルカム・設定・プランのリンク）"
+  },
+  "creatorCoverChangeFailed": "カバーを変えられませんでした",
+  "@creatorCoverChangeFailed": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：カバー画像の変更の失敗のスナックバー"
+  },
+  "creatorWatchLive": "固定ビューアで見る",
+  "@creatorWatchLive": {
+    "description": "発信者ページ：配信中で、固定ビューアでその配信を流していないときのボタン"
+  },
+  "creatorChangeCover": "カバーを変える",
+  "@creatorChangeCover": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：カバー画像を変えるボタン（ツールチップ）"
+  },
+  "creatorCoverPickPhoto": "写真を選ぶ",
+  "@creatorCoverPickPhoto": {
+    "description": "発信者ページ（画面定義書 2.4.1）：カメラのアイコンのメニューの、端末の写真を選ぶ項目"
+  },
+  "creatorCoverReset": "推しが設定したカバーに戻す",
+  "@creatorCoverReset": {
+    "description": "発信者ページ（画面定義書 2.4.1）：カメラのアイコンのメニューの、自分の写真を消して発信者のカバーに戻す項目"
+  },
+  "creatorFlipCover": "カバーを裏返す",
+  "@creatorFlipCover": {
+    "description": "発信者ページ（画面定義書 2.4.1）：自分の写真と発信者のカバーを切り替える、カバーの読み上げの名前"
+  },
+  "fixedViewerLiveEnded": "配信が終わりました",
+  "@fixedViewerLiveEnded": {
+    "description": "固定ビューア（画面定義書 2.4.3）：固定ビューアで流していた配信が終わって、固定ビューアを閉じたときのスナックバー"
+  },
+  "creatorTotalFollowers": "合計フォロワー",
+  "@creatorTotalFollowers": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：各SNSのフォロワー数の合計の後ろに付く語"
+  },
+  "creatorBioExpand": "もっと見る",
+  "@creatorBioExpand": {
+    "description": "発信者ページ（画面定義書 2.4.1）：折りたたんだプロフィール文の下の、全文を出すボタン"
+  },
+  "creatorBioCollapse": "閉じる",
+  "@creatorBioCollapse": {
+    "description": "発信者ページ（画面定義書 2.4.1）：開いたプロフィール文の下の、1行目だけに戻すボタン"
+  },
+  "creatorNextScheduleHeader": "次の予定 ・ {until}",
+  "@creatorNextScheduleHeader": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：次の予定のカードの見出し。until は予定までの残り時間（あと3時間など）",
+    "placeholders": {
+      "until": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorNextScheduleMeta": "{source} ・ {date} {time}〜",
+  "@creatorNextScheduleMeta": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：次の予定のカードの、配信先と開始日時。source は SNS の名前か「イベント」、date は月日と曜日、time は時刻",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorNextScheduleEvent": "イベント",
+  "@creatorNextScheduleEvent": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：次の予定のカードで、SNS のない予定（イベントの公演）の配信先の表示"
+  },
+  "creatorNewPostsDivider": "ここまで新着",
+  "@creatorNewPostsDivider": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：新着の投稿と既読の投稿の境目の線"
+  },
+  "creatorBellNotifyOn": "通知をオンにする",
+  "@creatorBellNotifyOn": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：フォロー中のベルのシート：通知をオンにする（通知オフのとき）"
+  },
+  "creatorBellNotifyOff": "通知をオフにする",
+  "@creatorBellNotifyOff": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：フォロー中のベルのシート：通知をオフにする（通知オンのとき）"
+  },
+  "creatorBellUnfollow": "フォローをやめる",
+  "@creatorBellUnfollow": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：フォロー中のベルのシート：フォローをやめる"
+  },
+  "creatorBellMenu": "通知とフォロー",
+  "@creatorBellMenu": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：フォロー中のベルのボタン（ツールチップ）"
+  },
+  "creatorMonthCalendar": "月のカレンダー",
+  "@creatorMonthCalendar": {
+    "description": "発信者ページ（画面定義書 2.4.1・2.4.2）：この発信者の月のカレンダーを開くボタン（ツールチップ）"
+  },
+  "creatorMenu": "メニュー",
+  "@creatorMenu": {
+    "description": "発信者ページ：メニュー（…）のボタン（ツールチップ）"
+  },
+  "creatorReport": "通報する",
+  "@creatorReport": {
+    "description": "発信者ページのメニュー：通報する"
+  },
+  "creatorHide": "この発信者を表示しない",
+  "@creatorHide": {
+    "description": "発信者ページのメニュー：この発信者を表示しない"
+  },
+  "creatorHideConfirmTitle": "{name}を表示しないようにしますか？",
+  "@creatorHideConfirmTitle": {
+    "description": "表示しないの確認のダイアログ：見出し",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorHideConfirmMessage": "フォローを外し、検索やタイムラインにも出さなくなります。設定から元に戻せます。",
+  "@creatorHideConfirmMessage": {
+    "description": "表示しないの確認のダイアログ：説明"
+  },
+  "creatorHideConfirmAction": "表示しない",
+  "@creatorHideConfirmAction": {
+    "description": "表示しないの確認のダイアログ：表示しないのボタン"
+  },
+  "creatorHidden": "この発信者を表示しないようにしました",
+  "@creatorHidden": {
+    "description": "表示しないにしたときのスナックバー"
+  },
+  "creatorHideFailed": "表示しないにできませんでした",
+  "@creatorHideFailed": {
+    "description": "表示しないにできなかったときのスナックバー"
+  },
+  "reportTitle": "通報する",
+  "@reportTitle": {
+    "description": "通報（シート）：見出し"
+  },
+  "reportReasonName": "{reason, select, impersonation{なりすまし} inappropriate{不適切な内容} dangerousLink{危険なリンク} other{その他}}",
+  "@reportReasonName": {
+    "description": "通報の理由（ReportReason.name）",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "reportDetailLabel": "詳しい内容（任意）",
+  "@reportDetailLabel": {
+    "description": "通報（シート）：詳しい内容の入力欄のラベル"
+  },
+  "reportNote": "運営が内容を確かめ、必要に応じて表示を止めます。結果はお知らせしません。",
+  "@reportNote": {
+    "description": "通報（シート）：注記"
+  },
+  "reportSubmit": "送信",
+  "@reportSubmit": {
+    "description": "通報（シート）：送信のボタン"
+  },
+  "reportSubmitted": "通報しました。運営が確認します",
+  "@reportSubmitted": {
+    "description": "通報を送ったときのスナックバー"
+  },
+  "reportAlreadySubmitted": "この内容は、すでに通報を受け付けています",
+  "@reportAlreadySubmitted": {
+    "description": "24時間のうちに同じ対象を通報済みのときのスナックバー"
+  },
+  "reportFailed": "通報できませんでした",
+  "@reportFailed": {
+    "description": "通報を送れなかったときのスナックバー"
+  },
+  "commonLiveVideoFailed": "映像を再生できませんでした",
+  "@commonLiveVideoFailed": {
+    "description": "配信の映像（画面定義書 2.4.2・2.4.3）：ツイキャスの映像の再生に失敗したとき"
+  },
+  "commonLiveMute": "ミュート",
+  "@commonLiveMute": {
+    "description": "配信の映像（画面定義書 2.4.2・2.4.3）：ミュートのボタン（ツールチップ）"
+  },
+  "commonLiveUnmute": "ミュートを解除",
+  "@commonLiveUnmute": {
+    "description": "配信の映像（画面定義書 2.4.2・2.4.3）：ミュートの解除のボタン（ツールチップ）"
+  },
+  "commonCreatorMenu": "発信者メニュー",
+  "@commonCreatorMenu": {
+    "description": "発信者メニュー：画面のタイトルと、下のナビの発信者メニューのボタンの読み上げ"
+  },
+  "creatorAdminSuspendedNotice": "この発信者は、運営が表示を止めています。くわしくは、お問い合わせください。",
+  "@creatorAdminSuspendedNotice": {
+    "description": "発信者メニュー：停止中の注意"
+  },
+  "creatorAdminMenuSectionLinks": "連携",
+  "@creatorAdminMenuSectionLinks": {
+    "description": "発信者メニュー：連携の節の見出し（SNS）"
+  },
+  "creatorAdminProfileEditTitle": "プロフィールの編集",
+  "@creatorAdminProfileEditTitle": {
+    "description": "プロフィールの編集：画面のタイトル。発信者メニューの行の名前にも使う"
+  },
+  "creatorAdminAccountLinkTitle": "SNS の連携",
+  "@creatorAdminAccountLinkTitle": {
+    "description": "SNS の連携：画面のタイトル。発信者メニューの行の名前にも使う。設定のアカウント（ログイン方法）と混ざらないよう「アカウント連携」とは呼ばない"
+  },
+  "creatorAdminMenuLinkedCount": "{count}件",
+  "@creatorAdminMenuLinkedCount": {
+    "description": "発信者メニュー：アカウント連携の行の、連携済みの数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "creatorAdminMenuSectionContent": "コンテンツ",
+  "@creatorAdminMenuSectionContent": {
+    "description": "発信者メニュー：コンテンツの節の見出し（投稿の管理・イベントの管理・予定のデフォルトの長さ）"
+  },
+  "creatorAdminMenuEventManage": "イベントの管理",
+  "@creatorAdminMenuEventManage": {
+    "description": "発信者メニューの「イベントの管理」の行と、その画面のタイトル"
+  },
+  "creatorAdminPostManageTitle": "投稿の管理",
+  "@creatorAdminPostManageTitle": {
+    "description": "投稿の管理：画面のタイトル。発信者メニューの行の名前にも使う"
+  },
+  "creatorAdminPlanTitle": "プラン",
+  "@creatorAdminPlanTitle": {
+    "description": "プラン：画面のタイトル。発信者メニューの節の見出し・行の名前にも使う"
+  },
+  "creatorAdminUpcomingNiconico": "ニコニコ",
+  "@creatorAdminUpcomingNiconico": {
+    "description": "アカウント連携・表示する内容：準備中のプラットフォーム（ニコニコ）の名前"
+  },
+  "creatorAdminUpcomingTiktokContents": "配信・ショート動画",
+  "@creatorAdminUpcomingTiktokContents": {
+    "description": "表示する内容：準備中の TikTok で選べるようになる内容"
+  },
+  "creatorAdminUpcomingNiconicoContents": "配信・動画",
+  "@creatorAdminUpcomingNiconicoContents": {
+    "description": "表示する内容：準備中のニコニコで選べるようになる内容"
+  },
+  "creatorAdminLinked": "{service}を連携しました",
+  "@creatorAdminLinked": {
+    "description": "アカウント連携：連携できたときのスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminLinkDuplicate": "このアカウントは、ほかの発信者で連携されています",
+  "@creatorAdminLinkDuplicate": {
+    "description": "アカウント連携：ほかの発信者で連携済みのときのスナックバー"
+  },
+  "creatorAdminLinkNoChannel": "YouTube のチャンネルが見つかりませんでした",
+  "@creatorAdminLinkNoChannel": {
+    "description": "アカウント連携：YouTube のチャンネルがないときのスナックバー"
+  },
+  "creatorAdminLinkFailed": "連携できませんでした。もう一度お試しください",
+  "@creatorAdminLinkFailed": {
+    "description": "アカウント連携：連携の失敗のスナックバー"
+  },
+  "creatorAdminUnlinkConfirmTitle": "{service}の連携を解除しますか？",
+  "@creatorAdminUnlinkConfirmTitle": {
+    "description": "アカウント連携：連携の解除の確認ダイアログの見出し",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminUnlinkConfirmMessage": "追星に表示されなくなります。",
+  "@creatorAdminUnlinkConfirmMessage": {
+    "description": "アカウント連携：連携の解除の確認ダイアログの説明"
+  },
+  "creatorAdminUnlinkConfirmAction": "解除する",
+  "@creatorAdminUnlinkConfirmAction": {
+    "description": "アカウント連携：連携の解除の確認ダイアログの実行ボタン"
+  },
+  "creatorAdminUnlinked": "{service}の連携を解除しました",
+  "@creatorAdminUnlinked": {
+    "description": "アカウント連携：連携を解除したときのスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminUnlinkFailed": "解除できませんでした。もう一度お試しください",
+  "@creatorAdminUnlinkFailed": {
+    "description": "アカウント連携：連携の解除の失敗のスナックバー"
+  },
+  "creatorAdminAccountLinkIntro": "連携して、そのアカウントが本人のものだと確認されると、追星に表示できます。",
+  "@creatorAdminAccountLinkIntro": {
+    "description": "アカウント連携：画面の上の説明"
+  },
+  "creatorAdminAccountLinkNote": "確認が済んでいないアカウントは、追星には表示されません。連携したあとも、追星に出す内容をオフにできます。連携は、いつでも解除できます。",
+  "@creatorAdminAccountLinkNote": {
+    "description": "アカウント連携：画面の下の注意書き"
+  },
+  "creatorAdminLinkAction": "連携する",
+  "@creatorAdminLinkAction": {
+    "description": "アカウント連携：連携のボタン"
+  },
+  "creatorAdminNotLinked": "未連携",
+  "@creatorAdminNotLinked": {
+    "description": "アカウント連携：連携していない SNS の行の表示"
+  },
+  "creatorAdminDisplayContentsHideNote": "オフにすると、取得済みの投稿も、すぐにファンに見えなくなります。",
+  "@creatorAdminDisplayContentsHideNote": {
+    "description": "表示する内容：オフにしたときの注記"
+  },
+  "creatorAdminDisplayNeedsXOption": "X連携プラン（月{price}）に加入すると使えます",
+  "@creatorAdminDisplayNeedsXOption": {
+    "description": "表示する内容：X のカードの注意書き（X連携プランに未加入）",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminRegistered": "発信者として登録しました",
+  "@creatorAdminRegistered": {
+    "description": "発信者として登録：登録できたときのスナックバー"
+  },
+  "creatorAdminRegisteredPartially": "発信者として登録しました。プロフィールの一部を保存できなかったので、プロフィールの編集で直してください",
+  "@creatorAdminRegisteredPartially": {
+    "description": "発信者として登録：登録できたが、登録のあとのアイコン・カバー・タイプの保存に失敗したときのスナックバー"
+  },
+  "creatorAdminRegisterIdTaken": "このIDは、すでに使われています",
+  "@creatorAdminRegisterIdTaken": {
+    "description": "発信者として登録：ID が使われているときのスナックバー"
+  },
+  "creatorAdminRegisterDuplicate": "連携したアカウントが、ほかの発信者で使われています",
+  "@creatorAdminRegisterDuplicate": {
+    "description": "発信者として登録：連携したアカウントがほかの発信者で使われているときのスナックバー"
+  },
+  "creatorAdminRegisterClosed": "発信者の登録は、準備中です",
+  "@creatorAdminRegisterClosed": {
+    "description": "発信者として登録：登録を受け付けていないときのスナックバー"
+  },
+  "creatorAdminRegisterFailed": "登録できませんでした。もう一度お試しください",
+  "@creatorAdminRegisterFailed": {
+    "description": "発信者として登録：登録の失敗のスナックバー"
+  },
+  "creatorAdminRegisterTitle": "発信者として登録",
+  "@creatorAdminRegisterTitle": {
+    "description": "発信者として登録：画面のタイトル"
+  },
+  "creatorAdminRegisterHeadline": "あなたの配信・投稿・イベントを\nファンに届けます",
+  "@creatorAdminRegisterHeadline": {
+    "description": "発信者として登録：画面の上の見出し"
+  },
+  "creatorAdminRegisterEyebrow": "FOR CREATORS",
+  "@creatorAdminRegisterEyebrow": {
+    "description": "発信者として登録：見出しの上の小さなラベル（英字のまま。2026-11-10 本人）"
+  },
+  "creatorAdminRegisterLead": "連携したいSNSアカウントにサインインしてください。\n投稿やフォロワー数、リンクなどがアプリに表示されます。",
+  "@creatorAdminRegisterLead": {
+    "description": "発信者として登録：見出しの下の説明"
+  },
+  "creatorAdminRegisterStepLink": "SNSアカウントを連携",
+  "@creatorAdminRegisterStepLink": {
+    "description": "発信者として登録：手順1の見出し"
+  },
+  "creatorAdminRegisterStepLinkDone": "{services} を連携済み",
+  "@creatorAdminRegisterStepLinkDone": {
+    "description": "発信者として登録：手順1が済んだときの説明。services は連携済みの SNS の名前を commonListSeparator でつないだもの",
+    "placeholders": {
+      "services": {
+        "type": "String"
+      }
+    }
+  },
+  "commonListSeparator": "・",
+  "@commonListSeparator": {
+    "description": "共通：名前などを並べるときの区切り（発信者として登録の SNS の名前、タイムスケジュールの「+N」の読み上げ、公演の候補のチケットサイト、イベントの候補の説明とサイト）"
+  },
+  "creatorAdminRegisterStepProfile": "プロフィールを入力",
+  "@creatorAdminRegisterStepProfile": {
+    "description": "発信者として登録：手順2の見出し"
+  },
+  "creatorAdminRegisterStepProfileDone": "{name}（@{id}）として入力済み",
+  "@creatorAdminRegisterStepProfileDone": {
+    "description": "発信者として登録：手順2が済んだときの説明",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminRegisterAgreePrefix": "",
+  "@creatorAdminRegisterAgreePrefix": {
+    "description": "発信者として登録：規約への同意の文の、リンクの前の部分（日本語は空）"
+  },
+  "creatorAdminRegisterAgreeSeparator": "・",
+  "@creatorAdminRegisterAgreeSeparator": {
+    "description": "発信者として登録：同意の文の、規約の名前の区切り（利用規約とプライバシーポリシーの間）"
+  },
+  "creatorAdminRegisterAgreeLastSeparator": "・",
+  "@creatorAdminRegisterAgreeLastSeparator": {
+    "description": "発信者として登録：同意の文の、最後の規約の名前の前の区切り（プライバシーポリシーと発信者向けの利用規約の間）"
+  },
+  "creatorAdminRegisterTerms": "発信者向けの利用規約",
+  "@creatorAdminRegisterTerms": {
+    "description": "発信者として登録：規約への同意の文の、リンクの部分"
+  },
+  "creatorAdminRegisterAgreeSuffix": "に同意する",
+  "@creatorAdminRegisterAgreeSuffix": {
+    "description": "発信者として登録：規約への同意の文の、リンクの後の部分（英語は空）"
+  },
+  "creatorAdminRegisterAction": "発信者として登録する",
+  "@creatorAdminRegisterAction": {
+    "description": "発信者として登録：登録のボタン"
+  },
+  "creatorAdminImportFailed": "{service}から取り込めませんでした",
+  "@creatorAdminImportFailed": {
+    "description": "プロフィールの編集：SNS からの取り込みの失敗のスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminImportEmpty": "{service}に、取り込める項目がありませんでした",
+  "@creatorAdminImportEmpty": {
+    "description": "プロフィールの編集：取り込める項目がないときのスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminImportLimited": "{service}からの取り込みは、しばらく時間をおいてお試しください",
+  "@creatorAdminImportLimited": {
+    "description": "プロフィールの編集：取り込みの回数の上限を超えたときのスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminImported": "{service}から、下書きを入れました",
+  "@creatorAdminImported": {
+    "description": "プロフィールの編集：取り込めたときのスナックバー",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminDraftBadge": "下書き・{service}から",
+  "@creatorAdminDraftBadge": {
+    "description": "プロフィールの編集：取り込んだ項目の印",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminNameInvalid": "名前は、1〜100文字で入力してください",
+  "@creatorAdminNameInvalid": {
+    "description": "プロフィールの編集：名前の入力の誤りのスナックバー"
+  },
+  "creatorAdminIdInvalid": "IDは、英小文字・数字・_・- の1〜40文字で入力してください",
+  "@creatorAdminIdInvalid": {
+    "description": "プロフィールの編集：ID の入力の誤りのスナックバー"
+  },
+  "creatorAdminChangeCover": "カバーを変える",
+  "@creatorAdminChangeCover": {
+    "description": "プロフィールの編集：カバーの画像を変えるボタンのツールチップ"
+  },
+  "creatorAdminChangeAvatar": "アイコンを変える",
+  "@creatorAdminChangeAvatar": {
+    "description": "プロフィールの編集：アイコンを変えるボタンのツールチップ"
+  },
+  "creatorAdminImportTitle": "連携したSNSから入力",
+  "@creatorAdminImportTitle": {
+    "description": "プロフィールの編集：SNS からの取り込みのパネルの見出し"
+  },
+  "creatorAdminImportDescription": "名前・アイコン・プロフィール文を、下書きとして入れます。保存するまでは、反映されません。",
+  "@creatorAdminImportDescription": {
+    "description": "プロフィールの編集：SNS からの取り込みのパネルの説明"
+  },
+  "creatorAdminFieldName": "名前",
+  "@creatorAdminFieldName": {
+    "description": "プロフィールの編集：名前の欄の見出し"
+  },
+  "creatorAdminFieldBio": "プロフィール文",
+  "@creatorAdminFieldBio": {
+    "description": "プロフィールの編集：プロフィール文の欄の見出し"
+  },
+  "creatorAdminIdNote": "IDは、あとから変えられません。",
+  "@creatorAdminIdNote": {
+    "description": "プロフィールの編集：ID の欄の注意書き"
+  },
+  "creatorAdminIdHint": "英小文字・数字・_・-",
+  "@creatorAdminIdHint": {
+    "description": "プロフィールの編集：ID の欄のプレースホルダ"
+  },
+  "creatorAdminEventRequiredMissing": "必須の項目を入力してください",
+  "@creatorAdminEventRequiredMissing": {
+    "description": "イベントの登録：必須の項目が未入力のときのスナックバー"
+  },
+  "creatorAdminEventFieldTitle": "タイトル",
+  "@creatorAdminEventFieldTitle": {
+    "description": "イベントの登録：タイトルの欄の見出し"
+  },
+  "creatorAdminEventTitleHint": "例：新衣装のお披露目",
+  "@creatorAdminEventTitleHint": {
+    "description": "イベントの登録：タイトルの欄のプレースホルダ"
+  },
+  "creatorAdminEventFieldDate": "日付",
+  "@creatorAdminEventFieldDate": {
+    "description": "イベントの登録：日付の欄の見出し"
+  },
+  "creatorAdminEventDate": "{date}（{weekday}）",
+  "@creatorAdminEventDate": {
+    "description": "イベントの登録：選んだ日付。date は fullDate、weekday は weekdayLabel",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminEventPickDate": "日付を選ぶ",
+  "@creatorAdminEventPickDate": {
+    "description": "イベントの登録：日付の欄のプレースホルダ"
+  },
+  "creatorAdminEventFieldStart": "開始",
+  "@creatorAdminEventFieldStart": {
+    "description": "イベントの登録：開始時刻の欄の見出し"
+  },
+  "creatorAdminEventFieldEnd": "終了（任意）",
+  "@creatorAdminEventFieldEnd": {
+    "description": "イベントの登録：終了時刻の欄の見出し"
+  },
+  "creatorAdminEventEndNote": "指定しない場合は、その日の終わりまで表示します",
+  "@creatorAdminEventEndNote": {
+    "description": "イベントの登録：終了時刻の欄の下の注意書き（終了を空にしたときの表示）"
+  },
+  "creatorAdminEventFieldVenue": "会場（任意）",
+  "@creatorAdminEventFieldVenue": {
+    "description": "イベントの登録：会場の欄の見出し"
+  },
+  "creatorAdminEventVenueHint": "例：東京・渋谷 ○○ホール",
+  "@creatorAdminEventVenueHint": {
+    "description": "イベントの登録：会場の欄のプレースホルダ"
+  },
+  "creatorAdminEventPromotion": "このリンクは広告です",
+  "@creatorAdminEventPromotion": {
+    "description": "イベントの登録：広告のリンクのスイッチの名前"
+  },
+  "creatorAdminEventPromotionHint": "「PR」と表示します（チケットの販売など）",
+  "@creatorAdminEventPromotionHint": {
+    "description": "イベントの登録：広告のリンクのスイッチの説明"
+  },
+  "creatorAdminEventTitleTooLong": "タイトルは、1〜200文字で入力してください",
+  "@creatorAdminEventTitleTooLong": {
+    "description": "イベントの登録：タイトルが長すぎるときのスナックバー"
+  },
+  "creatorAdminEventLinkInvalid": "https:// で始まる URL を入れてください",
+  "@creatorAdminEventLinkInvalid": {
+    "description": "イベントの登録：リンクが https:// で始まらないときの、リンクの欄の案内"
+  },
+  "creatorAdminEventDelete": "削除",
+  "@creatorAdminEventDelete": {
+    "description": "イベントの登録：編集のときの、一番下の削除のボタン。削除の確認のダイアログのボタンにも使う"
+  },
+  "creatorAdminEventDeleteFailed": "削除できませんでした",
+  "@creatorAdminEventDeleteFailed": {
+    "description": "イベントの登録：削除に失敗したときのスナックバー"
+  },
+  "creatorAdminEventListAdd": "登録",
+  "@creatorAdminEventListAdd": {
+    "description": "イベントの管理：右上と、空の状態の登録のボタン"
+  },
+  "creatorAdminEventListEmpty": "イベントはまだありません",
+  "@creatorAdminEventListEmpty": {
+    "description": "イベントの管理：1件もないときの状態表示"
+  },
+  "creatorAdminEventListPast": "過去のイベント",
+  "@creatorAdminEventListPast": {
+    "description": "イベントの管理：過去の予定をまとめる行"
+  },
+  "commonRequired": "必須",
+  "@commonRequired": {
+    "description": "共通（入力欄の部品）：入力欄の必須の印。イベントの登録・プロフィールの編集など"
+  },
+  "creatorAdminPlanPurchasePending": "支払いの承認を待っています",
+  "@creatorAdminPlanPurchasePending": {
+    "description": "プラン：購入の承認待ちのスナックバー"
+  },
+  "creatorAdminPlanPurchaseFailed": "購入できませんでした。もう一度お試しください",
+  "@creatorAdminPlanPurchaseFailed": {
+    "description": "プラン：購入の失敗のスナックバー"
+  },
+  "creatorAdminPlanRestored": "購入を復元しました",
+  "@creatorAdminPlanRestored": {
+    "description": "プラン：購入を復元できたときのスナックバー"
+  },
+  "creatorAdminPlanNothingToRestore": "復元できる購入がありません",
+  "@creatorAdminPlanNothingToRestore": {
+    "description": "プラン：復元できる購入がないときのスナックバー"
+  },
+  "creatorAdminPlanRestoreFailed": "復元できませんでした。もう一度お試しください",
+  "@creatorAdminPlanRestoreFailed": {
+    "description": "プラン：購入の復元の失敗のスナックバー"
+  },
+  "creatorAdminPlanCurrent": "いまのプラン",
+  "@creatorAdminPlanCurrent": {
+    "description": "プラン：いまのプランのパネルの見出し"
+  },
+  "creatorAdminPlanFree": "無料",
+  "@creatorAdminPlanFree": {
+    "description": "プラン：基本プランの料金"
+  },
+  "creatorAdminPlanSubscribe": "加入する",
+  "@creatorAdminPlanSubscribe": {
+    "description": "プラン：X の連携に加入するボタン"
+  },
+  "creatorAdminPlanSubscribed": "加入中",
+  "@creatorAdminPlanSubscribed": {
+    "description": "プラン：加入中のプランの印"
+  },
+  "creatorAdminPlanPerMonth": "月{price}",
+  "@creatorAdminPlanPerMonth": {
+    "description": "プラン：月額の表示。price はストアの価格または priceYen",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminPlanBasicFeatureFetch": "{services} の取得と表示",
+  "@creatorAdminPlanBasicFeatureFetch": {
+    "description": "プラン：基本プランの内容（1）。services は、この版で出す SNS のうち X を除いたものの名前を commonListSeparator でつないだもの（v1.0.0 は Instagram・ツイキャスを除く）",
+    "placeholders": {
+      "services": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminPlanBasicFeatureReservations": "配信の予約の取得",
+  "@creatorAdminPlanBasicFeatureReservations": {
+    "description": "プラン：基本プランの内容（2）"
+  },
+  "creatorAdminPlanBasicFeatureCalendar": "イベントの登録",
+  "@creatorAdminPlanBasicFeatureCalendar": {
+    "description": "プラン：基本プランの内容（3）"
+  },
+  "creatorAdminPlanAddOns": "オプション",
+  "@creatorAdminPlanAddOns": {
+    "description": "プラン：オプションの節の見出し"
+  },
+  "creatorAdminPlanXOptionTitle": "X連携プラン",
+  "@creatorAdminPlanXOptionTitle": {
+    "description": "プラン：X の連携のオプションのカードの見出し"
+  },
+  "creatorAdminPlanXFeatureFetch": "X の投稿の取得と表示",
+  "@creatorAdminPlanXFeatureFetch": {
+    "description": "プラン：X の連携の内容（1）"
+  },
+  "creatorAdminPlanXFeatureNoReposts": "リポスト・リプライは、取りません",
+  "@creatorAdminPlanXFeatureNoReposts": {
+    "description": "プラン：X の連携の内容（2）"
+  },
+  "creatorAdminPlanCancel": "解約する",
+  "@creatorAdminPlanCancel": {
+    "description": "プラン：解約のボタン（ストアのサブスクの管理を開く）"
+  },
+  "creatorAdminPlanCancelConfirmTitle": "ストアのサブスクの管理を開きます",
+  "@creatorAdminPlanCancelConfirmTitle": {
+    "description": "プラン：「解約する」の確認のダイアログの見出し"
+  },
+  "creatorAdminPlanCancelConfirmMessage": "解約は、ストアの画面で行います。期間の終わりまでは、X の連携を使えます。",
+  "@creatorAdminPlanCancelConfirmMessage": {
+    "description": "プラン：「解約する」の確認のダイアログの説明"
+  },
+  "creatorAdminPlanCancelConfirmAction": "開く",
+  "@creatorAdminPlanCancelConfirmAction": {
+    "description": "プラン：「解約する」の確認のダイアログの、開くボタン"
+  },
+  "creatorAdminPlanRestore": "購入を復元",
+  "@creatorAdminPlanRestore": {
+    "description": "プラン：購入の復元のボタン"
+  },
+  "creatorAdminPlanSubscriptionTerms": "お支払いは、ストアのアカウントに請求されます。X連携プランは、1か月ごとの自動更新のサブスクです。期間の終わりの24時間前までに解約しないと、自動で更新されます。解約は、ストアのサブスクの管理で行えます。",
+  "@creatorAdminPlanSubscriptionTerms": {
+    "description": "プラン：自動更新のサブスクの注意書き（ストアの審査で要る文言）"
+  },
+  "creatorAdminPlanLegalSeparator": "・",
+  "@creatorAdminPlanLegalSeparator": {
+    "description": "プラン：利用規約とプライバシーポリシーのリンクの区切り"
+  },
+  "creatorAdminPlanRenewsOn": "次の更新日 {date}",
+  "@creatorAdminPlanRenewsOn": {
+    "description": "プラン：X の連携の次の更新日。date は fullDate",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminPlanEndsOn": "{date}に終了",
+  "@creatorAdminPlanEndsOn": {
+    "description": "プラン：X の連携を解約したときの、終わる日。date は fullDate",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminPlanUnavailableTitle": "この端末では、まだ X連携プランに加入できません",
+  "@creatorAdminPlanUnavailableTitle": {
+    "description": "プラン：課金を使えない端末の見出し"
+  },
+  "creatorAdminPlanUnavailableMessage": "準備ができるまで、お待ちください。",
+  "@creatorAdminPlanUnavailableMessage": {
+    "description": "プラン：課金を使えない端末の説明"
+  },
+  "creatorAdminPlanIncludedNote": "料金はかかりません（X の連携を含む）",
+  "@creatorAdminPlanIncludedNote": {
+    "description": "プラン：永年無料・運営・確認用のプランの説明"
+  },
+  "onboardingWelcomeTagline": "推しの配信・投稿・予定が、\nひとつに集まります。",
+  "@onboardingWelcomeTagline": {
+    "description": "ウェルカム：アプリの説明"
+  },
+  "onboardingStart": "はじめる",
+  "@onboardingStart": {
+    "description": "ウェルカム：はじめるのボタン"
+  },
+  "onboardingForCreators": "発信者の方はこちら",
+  "@onboardingForCreators": {
+    "description": "ウェルカム：発信者の登録へのボタン"
+  },
+  "onboardingAgreePrefix": "「はじめる」を押すと、",
+  "@onboardingAgreePrefix": {
+    "description": "ウェルカム：同意の文の前半（はじめるのボタンの名前を含む）"
+  },
+  "onboardingAgreeAnd": "と",
+  "@onboardingAgreeAnd": {
+    "description": "ウェルカム：同意の文の、利用規約とプライバシーポリシーのつなぎ"
+  },
+  "onboardingAgreeSuffix": "に\n同意したものとします。",
+  "@onboardingAgreeSuffix": {
+    "description": "ウェルカム：同意の文の後半"
+  },
+  "onboardingChooseTitle": "推しをフォローしましょう",
+  "@onboardingChooseTitle": {
+    "description": "推しを選ぶ：見出し"
+  },
+  "onboardingChooseMessage": "フォローした推しの、配信・投稿・予定が、ホームに集まります。",
+  "@onboardingChooseMessage": {
+    "description": "推しを選ぶ：説明"
+  },
+  "onboardingChooseSearchHint": "名前やIDで探す",
+  "@onboardingChooseSearchHint": {
+    "description": "推しを選ぶ：検索フィールドのプレースホルダ"
+  },
+  "onboardingNext": "次へ",
+  "@onboardingNext": {
+    "description": "推しを選ぶ：次へのボタン（だれもフォローしていない）"
+  },
+  "onboardingNextFollowing": "次へ（{count}人をフォロー中）",
+  "@onboardingNextFollowing": {
+    "description": "推しを選ぶ：次へのボタン（フォロー中の人数つき）",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingLater": "あとで",
+  "@onboardingLater": {
+    "description": "推しを選ぶ：あとでのボタン"
+  },
+  "onboardingNotificationTitle": "配信が始まったら、\nお知らせします",
+  "@onboardingNotificationTitle": {
+    "description": "通知の説明：見出し"
+  },
+  "onboardingNotificationMessage": "推しが配信を始めたときに、通知でお知らせします。\nあとから、設定で変えられます。",
+  "@onboardingNotificationMessage": {
+    "description": "通知の説明：説明"
+  },
+  "onboardingNotificationEnable": "通知をオンにする",
+  "@onboardingNotificationEnable": {
+    "description": "通知の説明：通知の許可を求めるボタン"
+  },
+  "onboardingNotificationSkip": "いまはしない",
+  "@onboardingNotificationSkip": {
+    "description": "通知の説明：通知の許可を求めずに進むボタン"
+  },
+  "onboardingNotificationSampleTitle": "星野ミナトが配信を始めました",
+  "@onboardingNotificationSampleTitle": {
+    "description": "通知の説明：通知の見本カードの見出し（架空の発信者）"
+  },
+  "onboardingNotificationSampleBody": "【Apex】プラチナ帯ソロランク耐久！",
+  "@onboardingNotificationSampleBody": {
+    "description": "通知の説明：通知の見本カードの本文（架空の配信のタイトル）"
+  },
+  "commonLiveOpenSource": "配信元で開く",
+  "@commonLiveOpenSource": {
+    "description": "共通：配信の面（ホーム）と固定ビューアの、配信元のアイコン（ツールチップ）"
+  },
+  "fixedViewerShufflePlay": "推しの動画をランダムに流す",
+  "@fixedViewerShufflePlay": {
+    "description": "固定ビューアの帯の、フォロー中の推しの動画のランダム再生に切り替えるボタン（ツールチップ）"
+  },
+  "homeShuffleEmpty": "流せる動画がありません",
+  "@homeShuffleEmpty": {
+    "description": "ホーム：ランダムに流す動画が1本もないときのスナックバー"
+  },
+  "commonVideoPrevious": "前の動画",
+  "@commonVideoPrevious": {
+    "description": "共通：固定ビューアのランダム再生で、前の動画に戻る矢印（ツールチップ）"
+  },
+  "commonVideoNext": "次の動画",
+  "@commonVideoNext": {
+    "description": "共通：固定ビューアのランダム再生で、次の動画に進む矢印（ツールチップ）"
+  },
+  "homeEmptyTitle": "推しを探しましょう",
+  "@homeEmptyTitle": {
+    "description": "ホーム：推しが0人のときの見出し"
+  },
+  "homeEmptyMessage": "推しをフォローすると、配信や予定、投稿が、ここに集まります。",
+  "@homeEmptyMessage": {
+    "description": "ホーム：推しが0人のときの説明"
+  },
+  "homeTimelineEnd": "過去90日ぶんを、すべて表示しました",
+  "@homeTimelineEnd": {
+    "description": "ホーム：全体タイムラインの末尾（過去90日ぶんを読み終えた）"
+  },
+  "homeUpcomingTitle": "次の予定",
+  "@homeUpcomingTitle": {
+    "description": "ホーム：次の予定（本日中。今日のこれからの予定）の見出し"
+  },
+  "homeUpcomingEmpty": "今日はこれからの予定はありません",
+  "@homeUpcomingEmpty": {
+    "description": "ホーム：次の予定（本日中）が0件"
+  },
+  "commonEventsTitle": "イベント",
+  "@commonEventsTitle": {
+    "description": "ホーム・発信者ページ・公演の候補：イベントの面の見出し。イベントの詳細の画面のタイトルにも使う"
+  },
+  "commonEventsEmpty": "これからのイベントはありません",
+  "@commonEventsEmpty": {
+    "description": "ホーム・発信者ページ・イベント一覧：イベントが0件"
+  },
+  "commonMoreCount": "ほか {count} 件",
+  "@commonMoreCount": {
+    "description": "ホーム・発信者ページ：「次の予定」「イベント」の面の下の、出しきれない件数。押すと、スケジュールのタブか月のカレンダーへ移る",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonFindCreatorsTitle": "推しを探す",
+  "@commonFindCreatorsTitle": {
+    "description": "共通：推しを探すの画面の名前。推しリストのヘッダーのボタン（ツールチップ）、ホームの推しが0人のときのボタン、固定ビューアの空のときの案内にも使う"
+  },
+  "oshiListCount": "{count}人フォロー中",
+  "@oshiListCount": {
+    "description": "推しリスト：フォロー中の人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "oshiListSortLiveFirst": "並び替え：配信中が先",
+  "@oshiListSortLiveFirst": {
+    "description": "推しリスト：並び順の表示"
+  },
+  "oshiListLiveNow": "配信中：{title}",
+  "@oshiListLiveNow": {
+    "description": "推しリスト：配信中の推しの行（配信のタイトル）",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "oshiListNextSchedule": "{when} {title}",
+  "@oshiListNextSchedule": {
+    "description": "推しリスト：次の予定（いつ・タイトル）",
+    "placeholders": {
+      "when": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "oshiListNoSchedule": "予定はありません",
+  "@oshiListNoSchedule": {
+    "description": "推しリスト：次の予定がない推しの行"
+  },
+  "oshiListEmptyTitle": "推しがいません",
+  "@oshiListEmptyTitle": {
+    "description": "推しリスト：フォロー中の推しが0人のときの見出し"
+  },
+  "oshiListEmptyMessage": "推しをフォローすると、ここに並びます。",
+  "@oshiListEmptyMessage": {
+    "description": "推しリスト：フォロー中の推しが0人のときの説明"
+  },
+  "oshiListNoMatch": "「{query}」に合う推しは、フォロー中にいません。",
+  "@oshiListNoMatch": {
+    "description": "推しリスト：検索に合う推しがいないときの説明",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "oshiListUnfollowFailed": "フォローを解除できませんでした",
+  "@oshiListUnfollowFailed": {
+    "description": "推しリスト：フォローの解除の失敗のスナックバー"
+  },
+  "commonFindNoMatch": "「{query}」に合う推しは、まだ追星にいません。名前やIDを、もう一度確かめてください。",
+  "@commonFindNoMatch": {
+    "description": "共通：推しを探す・推しを選ぶ（初回起動）で、検索の結果が0件のときの説明",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "oshiFindRecommended": "おすすめ",
+  "@oshiFindRecommended": {
+    "description": "推しを探す：言葉がないときの、おすすめの見出し"
+  },
+  "commonViewOnX": "Xで見る",
+  "@commonViewOnX": {
+    "description": "X の投稿：時刻の隣の、X で投稿を開くリンク（X の表示の決まりの「View on X」）"
+  },
+  "postOpen": "開く",
+  "@postOpen": {
+    "description": "投稿ビューア：元の投稿を開くボタン"
+  },
+  "postVideoPlay": "再生",
+  "@postVideoPlay": {
+    "description": "投稿ビューア：押すまで流さない動画の、再生のマーク（読み上げ）"
+  },
+  "commonVideoUnplayable": "この動画はアプリ上では再生できません",
+  "@commonVideoUnplayable": {
+    "description": "投稿ビューア：アプリで再生できない動画の、再生のマークの下の文言。押すと元の SNS で開く"
+  },
+  "creatorAdminPostManageNote": "ここで隠しても、元の SNS の投稿は消えません。追星でファンに出さなくなるだけです。",
+  "@creatorAdminPostManageNote": {
+    "description": "投稿の管理：一覧の上の注記。隠しても元の SNS の投稿は消えないこと"
+  },
+  "creatorAdminPostVisibleSwitch": "ファンに出す",
+  "@creatorAdminPostVisibleSwitch": {
+    "description": "投稿の管理：投稿ごとのトグル（オン＝出す、オフ＝隠す）の読み上げ"
+  },
+  "creatorAdminPostHidden": "隠しました",
+  "@creatorAdminPostHidden": {
+    "description": "投稿の管理：投稿を隠したあとのスナックバー"
+  },
+  "creatorAdminPostShown": "また出しました",
+  "@creatorAdminPostShown": {
+    "description": "投稿の管理：投稿をまた出したあとのスナックバー"
+  },
+  "creatorAdminPostHideFailed": "隠せませんでした",
+  "@creatorAdminPostHideFailed": {
+    "description": "投稿の管理：投稿を隠せなかったときのスナックバー"
+  },
+  "creatorAdminPostShowFailed": "また出せませんでした",
+  "@creatorAdminPostShowFailed": {
+    "description": "投稿の管理：投稿をまた出せなかったときのスナックバー"
+  },
+  "homeLiveStartedFallback": "推しが配信を始めました",
+  "homeLiveStartedOpen": "開く",
+  "@homeLiveStartedFallback": {
+    "description": "ホーム：アプリを開いているときに届いた配信開始の通知のスナックバー（通知にタイトルがないとき）"
+  },
+  "@homeLiveStartedOpen": {
+    "description": "ホーム：配信開始の通知のスナックバーの、発信者ページを開く操作"
+  },
+  "homeScheduleNoticeFallback": "推しの予定のお知らせ",
+  "@homeScheduleNoticeFallback": {
+    "description": "ホーム：アプリを開いているときに届いた予定の事前通知のスナックバー（通知にタイトルがないとき）"
+  },
+  "homeWantArrivalFallback": "追いたい人が追星に来ました",
+  "@homeWantArrivalFallback": {
+    "description": "ホーム：アプリを開いているときに届いた、追いたいの人の登録の通知のスナックバー（通知にタイトルがないとき）"
+  },
+  "scheduleOpenEndedTime": "{time}〜",
+  "@scheduleOpenEndedTime": {
+    "description": "タイムスケジュール：終了時刻のない予定のブロックの時刻（例：21:00〜）",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scheduleDayEmpty": "この日の予定はありません",
+  "@scheduleDayEmpty": {
+    "description": "タイムスケジュール・月のカレンダー：選んだ日に予定がないとき"
+  },
+  "scheduleDayEmptyHint": "ほかの日は、上の日付から選べます。",
+  "@scheduleDayEmptyHint": {
+    "description": "タイムスケジュール：予定がないときのカードの補足"
+  },
+  "scheduleLiveNow": "配信中",
+  "@scheduleLiveNow": {
+    "description": "タイムスケジュールの詳細のパネル：配信中の配信のカードの状態"
+  },
+  "scheduleWatchLive": "配信を見る",
+  "@scheduleWatchLive": {
+    "description": "タイムスケジュールの詳細のパネル：配信中の配信のカードのボタン"
+  },
+  "schedulePostsGroupTitle": "{name}の投稿",
+  "@schedulePostsGroupTitle": {
+    "description": "タイムスケジュールの詳細のパネル：まとめた投稿（+N）のカードの見出し",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "schedulePostsGroupSubtitle": "{hour}時ごろ ・ {count}件",
+  "@schedulePostsGroupSubtitle": {
+    "description": "タイムスケジュールの詳細のパネル：まとめた投稿のカードの、時刻と件数",
+    "placeholders": {
+      "hour": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schedulePostsGroupSemantics": "{count}件の投稿（{services}）",
+  "@schedulePostsGroupSemantics": {
+    "description": "タイムスケジュール：「+N」の読み上げ。services は、含まれる SNS の名前を commonListSeparator でつないだもの",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "services": {
+        "type": "String"
+      }
+    }
+  },
+  "scheduleFilterTitle": "絞り込み",
+  "@scheduleFilterTitle": {
+    "description": "タイムスケジュール：絞り込みのシートの見出しと、ヘッダーのボタンのツールチップ"
+  },
+  "scheduleFilterReset": "リセット",
+  "@scheduleFilterReset": {
+    "description": "絞り込みのシート：リセットのボタン"
+  },
+  "scheduleFilterCreatorsTitle": "表示する推し",
+  "@scheduleFilterCreatorsTitle": {
+    "description": "絞り込みのシート：表示する推しの行と、推しの選択の見出し"
+  },
+  "scheduleFilterSelectAll": "すべて選ぶ",
+  "@scheduleFilterSelectAll": {
+    "description": "絞り込みのシート（推しの選択）：すべて選ぶボタン"
+  },
+  "scheduleFilterDeselectAll": "すべて外す",
+  "@scheduleFilterDeselectAll": {
+    "description": "絞り込みのシート（推しの選択）：すべて外すボタン"
+  },
+  "scheduleFilterAllCreators": "全員",
+  "@scheduleFilterAllCreators": {
+    "description": "絞り込みのシート：表示する推しが全員のときの値"
+  },
+  "scheduleFilterCreatorCount": "{count}人",
+  "@scheduleFilterCreatorCount": {
+    "description": "絞り込みのシート：表示する推しの人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scheduleFilterPlatforms": "プラットフォーム",
+  "@scheduleFilterPlatforms": {
+    "description": "絞り込みのシート：プラットフォームの見出し"
+  },
+  "scheduleFilterContent": "表示する内容",
+  "@scheduleFilterContent": {
+    "description": "絞り込みのシート：表示する内容の見出し"
+  },
+  "scheduleFilterHideEmpty": "配信・投稿・予定のない推しを隠す",
+  "@scheduleFilterHideEmpty": {
+    "description": "タイムスケジュールのヘッダー：予定のない推しを隠すアイコン（オン・オフ）"
+  },
+  "scheduleHideEmptyOn": "配信・投稿・予定のない推しを隠しました",
+  "@scheduleHideEmptyOn": {
+    "description": "タイムスケジュール：予定のない推しを隠すアイコンをオンにしたときのスナックバー"
+  },
+  "scheduleHideEmptyOff": "すべての推しを表示しました",
+  "@scheduleHideEmptyOff": {
+    "description": "タイムスケジュール：予定のない推しを隠すアイコンをオフにしたときのスナックバー"
+  },
+  "scheduleFilterApply": "{creators}人・{services}つのSNSで表示",
+  "@scheduleFilterApply": {
+    "description": "絞り込みのシート：決定のボタン（人数とSNSの数）",
+    "placeholders": {
+      "creators": {
+        "type": "int"
+      },
+      "services": {
+        "type": "int"
+      }
+    }
+  },
+  "commonNoService": "イベント",
+  "@commonNoService": {
+    "description": "共通（プラットフォームのチップ）：プラットフォームのない予定（イベントの公演）"
+  },
+  "scheduleEmptyTitle": "推しの予定が、ここに並びます",
+  "@scheduleEmptyTitle": {
+    "description": "タイムスケジュール：推しがいないときの空の状態の見出し"
+  },
+  "scheduleEmptyMessage": "推しをフォローすると、配信やイベントを、時間の表で見られます。",
+  "@scheduleEmptyMessage": {
+    "description": "タイムスケジュール：推しがいないときの空の状態の説明"
+  },
+  "scheduleOpenCalendar": "カレンダーへ",
+  "@scheduleOpenCalendar": {
+    "description": "タイムスケジュール：月のカレンダーへのボタンのツールチップ"
+  },
+  "scheduleAllDayMore": "{title} +{count}",
+  "@scheduleAllDayMore": {
+    "description": "タイムスケジュール：終日の予定が複数あるときの表示（ほかの件数）",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scheduleCalendarAllTitle": "みんなのカレンダー",
+  "@scheduleCalendarAllTitle": {
+    "description": "月のカレンダー：複数の推しのときの画面の見出し"
+  },
+  "scheduleCalendarCreatorTitle": "{name}のカレンダー",
+  "@scheduleCalendarCreatorTitle": {
+    "description": "月のカレンダー：1人の推しのときの画面の見出し",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "eventListAllTitle": "みんなのイベント",
+  "@eventListAllTitle": {
+    "description": "イベント一覧：推し全員のときの画面の見出し"
+  },
+  "eventListCreatorTitle": "{name}のイベント",
+  "@eventListCreatorTitle": {
+    "description": "イベント一覧：1人の推しのときの画面の見出し",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonWhenVenue": "{when}・{venue}",
+  "@commonWhenVenue": {
+    "description": "共通：イベントの面（イベント一覧など）と公演の候補の行の、曜日と時刻（when）と会場",
+    "placeholders": {
+      "when": {
+        "type": "String"
+      },
+      "venue": {
+        "type": "String"
+      }
+    }
+  },
+  "eventListEmptyMessage": "イベントが登録されると、ここに出ます",
+  "@eventListEmptyMessage": {
+    "description": "イベント一覧：イベントが0件のときの説明"
+  },
+  "schedulePreviousMonth": "前の月",
+  "@schedulePreviousMonth": {
+    "description": "月のカレンダー：前の月へのボタンのツールチップ"
+  },
+  "scheduleNextMonth": "次の月",
+  "@scheduleNextMonth": {
+    "description": "月のカレンダー：次の月へのボタンのツールチップ"
+  },
+  "scheduleCalendarDayPosts": "この日に行われた投稿",
+  "@scheduleCalendarDayPosts": {
+    "description": "月のカレンダー：選んだ日のパネルの投稿の行"
+  },
+  "schedulePostCount": "{count}件",
+  "@schedulePostCount": {
+    "description": "月のカレンダー：選んだ日のパネルの投稿の件数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scheduleDetailLiveKind": "配信の予定",
+  "@scheduleDetailLiveKind": {
+    "description": "予定の詳細：配信の予定の種類"
+  },
+  "scheduleDetailEnded": "終了しました",
+  "@scheduleDetailEnded": {
+    "description": "予定の詳細：終わった配信の状態"
+  },
+  "scheduleDetailUpcoming": "これから",
+  "@scheduleDetailUpcoming": {
+    "description": "予定の詳細：これからの配信の状態"
+  },
+  "commonScheduleDateAllDay": "{date} 終日",
+  "@commonScheduleDateAllDay": {
+    "description": "共通：予定の詳細・イベントの詳細・イベントの管理の、終日の予定の日付",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "commonScheduleDateTime": "{date}{start}〜{end}",
+  "@commonScheduleDateTime": {
+    "description": "共通：予定の詳細・イベントの詳細・イベントの管理の、日時（終了時刻が未定なら end は空）",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "commonScheduleDateTimeSpan": "{startDate}{start}〜{endDate}{end}",
+  "@commonScheduleDateTimeSpan": {
+    "description": "共通：予定の詳細・イベントの詳細の、日をまたぐ予定の日時（終了が開始と別の日）",
+    "placeholders": {
+      "startDate": {
+        "type": "String"
+      },
+      "start": {
+        "type": "String"
+      },
+      "endDate": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "scheduleDetailEndOpen": "終了時刻は未定です",
+  "@scheduleDetailEndOpen": {
+    "description": "予定の詳細：終了時刻がないときの補足"
+  },
+  "scheduleDetailLinkHint": "押すと、外部のページが開きます",
+  "@scheduleDetailLinkHint": {
+    "description": "予定の詳細：リンクの行の補足"
+  },
+  "scheduleDetailReport": "この予定を通報する",
+  "@scheduleDetailReport": {
+    "description": "予定の詳細：この予定を通報する（イベントの公演で、自分がオーナーでないとき）"
+  },
+  "scheduleDetailOpenLink": "リンクを開く",
+  "@scheduleDetailOpenLink": {
+    "description": "予定の詳細：リンクを開くボタン"
+  },
+  "scheduleDetailEdit": "編集",
+  "@scheduleDetailEdit": {
+    "description": "予定の詳細：イベントの公演のオーナーにだけ出す、編集のボタン"
+  },
+  "commonLinkConfirmTitle": "外部のサイトを開きます",
+  "@commonLinkConfirmTitle": {
+    "description": "外部のリンクを開く前の確認のダイアログのタイトル（予定の詳細・月のカレンダー・イベントの詳細など）。本文には行き先のドメインを出す"
+  },
+  "commonLinkConfirmOpen": "開く",
+  "@commonLinkConfirmOpen": {
+    "description": "外部のリンクを開く前の確認のダイアログの、開くボタン"
+  },
+  "settingsTitle": "設定",
+  "@settingsTitle": {
+    "description": "設定：画面のタイトル"
+  },
+  "settingsSignedIn": "ログインしました",
+  "@settingsSignedIn": {
+    "description": "設定：ログインが済んだときのスナックバー"
+  },
+  "settingsLogoutConfirmTitle": "ログアウトしますか？",
+  "@settingsLogoutConfirmTitle": {
+    "description": "設定：ログアウトの確認ダイアログのタイトル"
+  },
+  "settingsLogoutConfirmMessage": "結び付けたログイン方法で、またログインできます。",
+  "@settingsLogoutConfirmMessage": {
+    "description": "設定：ログアウトの確認ダイアログの本文"
+  },
+  "settingsLogout": "ログアウト",
+  "@settingsLogout": {
+    "description": "設定：ログアウトの行と、確認ダイアログのボタン"
+  },
+  "settingsLoggedOut": "ログアウトしました",
+  "@settingsLoggedOut": {
+    "description": "設定：ログアウトが済んだときのスナックバー"
+  },
+  "settingsLogoutFailed": "ログアウトできませんでした",
+  "@settingsLogoutFailed": {
+    "description": "設定：ログアウトに失敗したときのスナックバー"
+  },
+  "settingsOn": "オン",
+  "@settingsOn": {
+    "description": "設定：通知の行の値（オン）"
+  },
+  "settingsOff": "オフ",
+  "@settingsOff": {
+    "description": "設定：通知の行の値（オフ）"
+  },
+  "settingsNotifications": "通知",
+  "@settingsNotifications": {
+    "description": "設定：通知の行"
+  },
+  "settingsDisplayMode": "画面モード",
+  "@settingsDisplayMode": {
+    "description": "設定：画面モードの行と、画面モード（シート）のタイトル"
+  },
+  "settingsLanguage": "言語",
+  "@settingsLanguage": {
+    "description": "設定：言語の行と、言語（シート）のタイトル"
+  },
+  "settingsRegisterAsCreator": "発信者として登録する",
+  "@settingsRegisterAsCreator": {
+    "description": "設定：発信者として登録する行"
+  },
+  "settingsSectionAccount": "アカウント",
+  "@settingsSectionAccount": {
+    "description": "設定：アカウントの見出し"
+  },
+  "settingsLoginMethods": "ログイン方法",
+  "@settingsLoginMethods": {
+    "description": "設定：ログイン方法の行と、ログイン方法の画面のタイトル"
+  },
+  "settingsAccountRequired": "先にアカウントを作成してください",
+  "@settingsAccountRequired": {
+    "description": "設定：アカウント作成の前の「発信者として登録する」のカードの注記。発信者として登録：アカウントがないときのスナックバー"
+  },
+  "settingsHiddenCreators": "表示しない発信者",
+  "@settingsHiddenCreators": {
+    "description": "設定：表示しない発信者の行、表示しない発信者の画面の見出し"
+  },
+  "settingsHiddenCreatorCount": "{count}人",
+  "@settingsHiddenCreatorCount": {
+    "description": "設定：表示しない発信者の人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsHiddenCreatorsDescription": "表示しないにした発信者は、検索やタイムラインに出ません。",
+  "@settingsHiddenCreatorsDescription": {
+    "description": "表示しない発信者：説明"
+  },
+  "settingsHiddenCreatorsEmpty": "表示しない発信者はいません",
+  "@settingsHiddenCreatorsEmpty": {
+    "description": "表示しない発信者：1人もいないとき"
+  },
+  "settingsHiddenCreatorShow": "表示する",
+  "@settingsHiddenCreatorShow": {
+    "description": "表示しない発信者：表示するのボタン"
+  },
+  "settingsHiddenCreatorRestored": "表示するように戻しました",
+  "@settingsHiddenCreatorRestored": {
+    "description": "表示しない発信者：戻したときのスナックバー"
+  },
+  "settingsHiddenCreatorRestoreFailed": "戻せませんでした",
+  "@settingsHiddenCreatorRestoreFailed": {
+    "description": "表示しない発信者：戻せなかったときのスナックバー"
+  },
+  "settingsAccountEntry": "アカウント作成／ログイン",
+  "@settingsAccountEntry": {
+    "description": "設定の行・アカウント作成／ログイン（シート）のタイトル。匿名のときだけ出す。作成かログインかは、アプリが決める"
+  },
+  "settingsSectionSupport": "サポート",
+  "@settingsSectionSupport": {
+    "description": "設定：サポートの見出し"
+  },
+  "commonContact": "お問い合わせ",
+  "@commonContact": {
+    "description": "共通：設定と発信者メニューのお問い合わせの行と、メールアプリが使えないときのダイアログのタイトル"
+  },
+  "settingsWithdraw": "退会",
+  "@settingsWithdraw": {
+    "description": "設定：退会の行と、退会の画面のタイトル"
+  },
+  "creatorAdminMenuProfileCardHint": "プロフィールを編集する",
+  "@creatorAdminMenuProfileCardHint": {
+    "description": "発信者メニュー：プロフィールカードの説明（押すとプロフィールの編集へ）"
+  },
+  "commonVerified": "確認済み",
+  "@commonVerified": {
+    "description": "共通（確認済みのチップ）：確認済みの印。SNS の連携・表示するコンテンツ"
+  },
+  "settingsContactAddressPreparing": "宛先のメールアドレスは、準備中です。",
+  "@settingsContactAddressPreparing": {
+    "description": "設定：お問い合わせのダイアログ（宛先がまだないとき）"
+  },
+  "settingsContactByEmail": "次の宛先に、メールでお問い合わせください。",
+  "@settingsContactByEmail": {
+    "description": "設定：お問い合わせのダイアログ（宛先の案内）"
+  },
+  "settingsUserId": "ユーザーID",
+  "@settingsUserId": {
+    "description": "設定：お問い合わせのダイアログのユーザーIDの見出し"
+  },
+  "settingsCopyUserId": "ユーザーIDをコピー",
+  "@settingsCopyUserId": {
+    "description": "設定：お問い合わせのダイアログのボタン"
+  },
+  "commonContactSubject": "追星へのお問い合わせ",
+  "@commonContactSubject": {
+    "description": "共通：設定と発信者メニューからの、お問い合わせのメールの件名"
+  },
+  "commonContactBody": "\n\n----\nユーザーID: {userId}\nアプリのバージョン: {version}\nOS: {os}\n",
+  "@commonContactBody": {
+    "description": "共通：設定と発信者メニューからの、お問い合わせのメールの本文（ユーザーID・アプリのバージョン・OS）",
+    "placeholders": {
+      "userId": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "os": {
+        "type": "String"
+      }
+    }
+  },
+  "commonContactNotSignedIn": "（サインインしていません）",
+  "@commonContactNotSignedIn": {
+    "description": "共通：お問い合わせのメールで、ユーザーIDがないとき"
+  },
+  "settingsLoginLinked": "{provider}のログインを結び付けました",
+  "@settingsLoginLinked": {
+    "description": "ログイン方法：結び付けが済んだときのスナックバー",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsAccountAlreadyUsed": "このアカウントは、ほかのユーザーで使われています",
+  "@settingsAccountAlreadyUsed": {
+    "description": "ログイン方法・ログイン（シート）：アカウントがほかで使われているときのスナックバー"
+  },
+  "settingsLinkFailed": "結び付けられませんでした。もう一度お試しください",
+  "@settingsLinkFailed": {
+    "description": "ログイン方法：結び付けに失敗したときのスナックバー"
+  },
+  "settingsUnlinkConfirmTitle": "{provider}のログインを外しますか？",
+  "@settingsUnlinkConfirmTitle": {
+    "description": "ログイン方法：外す確認ダイアログのタイトル",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsUnlinkConfirmMessage": "{provider}では、ログインできなくなります。",
+  "@settingsUnlinkConfirmMessage": {
+    "description": "ログイン方法：外す確認ダイアログの本文",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsUnlink": "外す",
+  "@settingsUnlink": {
+    "description": "ログイン方法：外すボタン"
+  },
+  "settingsUnlinked": "{provider}のログインを外しました",
+  "@settingsUnlinked": {
+    "description": "ログイン方法：外し終えたときのスナックバー",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsUnlinkFailed": "外せませんでした。もう一度お試しください",
+  "@settingsUnlinkFailed": {
+    "description": "ログイン方法：外すのに失敗したときのスナックバー"
+  },
+  "settingsLoginMethodsDescription": "結び付けたどれかで、別の端末からもログインできます。発信者は、2つ以上がおすすめです。",
+  "@settingsLoginMethodsDescription": {
+    "description": "ログイン方法：画面の上の説明"
+  },
+  "settingsLoginMethodsNote": "SNS のアカウント連携とは別です。ログイン方法を外しても、連携は残ります。",
+  "@settingsLoginMethodsNote": {
+    "description": "ログイン方法：画面の下の注記"
+  },
+  "settingsLink": "結び付ける",
+  "@settingsLink": {
+    "description": "ログイン方法：結び付けるボタン"
+  },
+  "settingsLoginMethodSet": "設定済み",
+  "@settingsLoginMethodSet": {
+    "description": "ログイン方法：結び付け済みで、アカウント名がないときの表示"
+  },
+  "settingsLoginFailed": "ログインできませんでした。もう一度お試しください",
+  "@settingsLoginFailed": {
+    "description": "ログイン（シート）・本人の確認（シート）：ログインに失敗したときのスナックバー"
+  },
+  "settingsAdminLogin": "アプリ運営用ログイン",
+  "@settingsAdminLogin": {
+    "description": "アカウント作成／ログイン（シート）の下の小さな入口と、アプリ運営用ログインの画面のタイトル（画面定義書 2.1.11）。「運営用」だけにしない（発信者のチームの運営と取り違えるため）"
+  },
+  "settingsAdminLoginLead": "運営が用意したアカウントで入ります。新しい登録はできません。",
+  "@settingsAdminLoginLead": {
+    "description": "アプリ運営用ログイン：説明"
+  },
+  "settingsAdminLoginEmail": "メールアドレス",
+  "@settingsAdminLoginEmail": {
+    "description": "アプリ運営用ログイン：入力欄のラベル"
+  },
+  "settingsAdminLoginPassword": "パスワード",
+  "@settingsAdminLoginPassword": {
+    "description": "アプリ運営用ログイン：入力欄のラベル"
+  },
+  "settingsAdminLoginSubmit": "ログイン",
+  "@settingsAdminLoginSubmit": {
+    "description": "アプリ運営用ログイン：ボタン"
+  },
+  "settingsAdminLoginInvalid": "メールアドレスかパスワードが違います",
+  "@settingsAdminLoginInvalid": {
+    "description": "アプリ運営用ログイン：メールアドレスかパスワードが違うときのスナックバー"
+  },
+  "settingsAdminLoginTooMany": "しばらくしてからやり直してください",
+  "@settingsAdminLoginTooMany": {
+    "description": "アプリ運営用ログイン：5回続けて違った（端末で5分）か、サーバーの回数の制限のときのスナックバー"
+  },
+  "settingsLoginSheetCreatorLead": "発信者として登録するには、アカウントが要ります。",
+  "@settingsLoginSheetCreatorLead": {
+    "description": "アカウント作成／ログイン（シート）：ウェルカムの「発信者の方はこちら」から開いたときに出す一言"
+  },
+  "settingsAccountCreated": "アカウントを作成しました",
+  "@settingsAccountCreated": {
+    "description": "アカウント作成／ログイン（シート）：アカウントを作ったときのスナックバー"
+  },
+  "settingsContinueWithApple": "Appleで続ける",
+  "@settingsContinueWithApple": {
+    "description": "アカウント作成／ログイン（シート）：Apple のボタン（Apple が決めた文言）"
+  },
+  "settingsContinueWithGoogle": "Google で続行",
+  "@settingsContinueWithGoogle": {
+    "description": "アカウント作成／ログイン（シート）：Google のボタン（Google が決めた文言）"
+  },
+  "settingsLoginWithApple": "Appleでサインイン",
+  "@settingsLoginWithApple": {
+    "description": "ログイン（シート）・本人の確認（シート）：Apple のログインのボタン（Apple が決めた文言）"
+  },
+  "settingsLoginWithGoogle": "Google でログイン",
+  "@settingsLoginWithGoogle": {
+    "description": "ログイン（シート）・本人の確認（シート）：Google のログインのボタン（Google が決めた文言）"
+  },
+  "settingsContinueWith": "{provider}で続ける",
+  "@settingsContinueWith": {
+    "description": "アカウント作成／ログイン（シート）：X・Twitch のボタン",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsLoginWith": "{provider}でログイン",
+  "@settingsLoginWith": {
+    "description": "ログイン（シート）・本人の確認（シート）：ログインのボタン",
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "settingsNotificationSettingsTitle": "通知設定",
+  "@settingsNotificationSettingsTitle": {
+    "description": "通知設定：画面のタイトル"
+  },
+  "settingsDeviceNotificationsOff": "端末の通知がオフになっています。配信の開始や予定をお知らせするには、端末の設定で通知を許可してください。",
+  "@settingsDeviceNotificationsOff": {
+    "description": "通知設定：端末の通知が許可されていないときの案内"
+  },
+  "settingsOpenDeviceSettings": "端末の設定を開く",
+  "@settingsOpenDeviceSettings": {
+    "description": "通知設定：端末の設定を開くボタン"
+  },
+  "settingsNotificationPermissionPrompt": "通知を許可すると、推しの配信の開始と予定をお知らせします。",
+  "@settingsNotificationPermissionPrompt": {
+    "description": "通知設定：通知の許可を一度も求めていないときの案内（許可カード）"
+  },
+  "settingsAllowNotifications": "通知を許可する",
+  "@settingsAllowNotifications": {
+    "description": "通知設定：OS の通知の許可の画面を出すボタン"
+  },
+  "settingsLiveStartNotification": "配信と予定の通知",
+  "@settingsLiveStartNotification": {
+    "description": "通知設定：全体のスイッチの名前"
+  },
+  "settingsLiveStartNotificationDescription": "推しが配信を始めたときと、予定の前に、お知らせします",
+  "@settingsLiveStartNotificationDescription": {
+    "description": "通知設定：全体のスイッチの説明"
+  },
+  "settingsPerCreatorNotificationNote": "推しごとの通知は、それぞれの推しのページで変えられます。",
+  "@settingsPerCreatorNotificationNote": {
+    "description": "通知設定：画面の下の注記"
+  },
+  "settingsReauthLoadFailed": "読み込めませんでした。もう一度お試しください",
+  "@settingsReauthLoadFailed": {
+    "description": "本人の確認：ログイン方法を読めなかったときのスナックバー"
+  },
+  "settingsReauthAppleMessage": "Apple でのサインインのひも付けも取り消すため、Apple で、もう一度ログインしてください。",
+  "@settingsReauthAppleMessage": {
+    "description": "本人の確認（シート）：退会で Apple のひも付けを取り消すときの説明"
+  },
+  "settingsWrongAccount": "結び付けたアカウントで、ログインしてください",
+  "@settingsWrongAccount": {
+    "description": "本人の確認（シート）：違うアカウントでログインしたときのスナックバー"
+  },
+  "settingsReauthTitle": "本人の確認",
+  "@settingsReauthTitle": {
+    "description": "本人の確認（シート）：タイトル"
+  },
+  "settingsReauthUnavailable": "この端末では、結び付けたログイン方法を使えません。iPhone で操作してください。",
+  "@settingsReauthUnavailable": {
+    "description": "本人の確認（シート）：この端末で使えるログイン方法がないときの説明"
+  },
+  "settingsReauthMessage": "大事な操作の前に、結び付けたログイン方法で、もう一度ログインしてください。",
+  "@settingsReauthMessage": {
+    "description": "本人の確認（シート）：いつもの説明"
+  },
+  "settingsWithdrawWarning": "退会すると、フォロー中の推し、通知や表示の設定が、すべて削除されます。この操作は取り消せません。",
+  "@settingsWithdrawWarning": {
+    "description": "退会：画面の説明"
+  },
+  "settingsWithdrawAppleElsewhere": "この端末では、Apple でのサインインのひも付けを取り消せません。iPhone で退会するか、退会のあとに、iPhone の設定の「Apple でサインイン」から外してください。",
+  "@settingsWithdrawAppleElsewhere": {
+    "description": "退会：Apple を結び付けていて、iOS 以外の端末のときの注記"
+  },
+  "settingsWithdrawAppleOnly": "Apple だけでログインしているので、この端末では本人の確認ができません。iPhone で退会してください。",
+  "@settingsWithdrawAppleOnly": {
+    "description": "退会：ログイン方法が Apple だけで、iOS 以外の端末のときの注記（退会するボタンは押せない）"
+  },
+  "settingsWithdrawButton": "退会する",
+  "@settingsWithdrawButton": {
+    "description": "退会：退会するボタン"
+  },
+  "settingsWithdrawFailed": "退会できませんでした",
+  "@settingsWithdrawFailed": {
+    "description": "退会：失敗したときのスナックバー"
+  },
+  "creatorAdminLinkReclaimable": "オーナーが退会した発信者のアカウントです。登録の画面から、取り戻せます",
+  "@creatorAdminLinkReclaimable": {
+    "description": "アカウント連携：オーナーが退会した発信者のアカウントだったときのスナックバー"
+  },
+  "creatorAdminUnlinkConfirmHeldMessage": "すぐに、追星に表示されなくなります。取得した投稿・配信・予定・実績は、90日残してから消します。90日のうちに、同じアカウントを連携し直すと、元に戻ります。",
+  "@creatorAdminUnlinkConfirmHeldMessage": {
+    "description": "アカウント連携：登録済みの発信者の連携の解除の確認ダイアログの説明"
+  },
+  "settingsWithdrawCreatorNote": "あなたの発信者は、すぐに追星に表示されなくなり、90日後に消えます。90日のうちなら、発信者として登録の画面で、同じSNSのアカウントを連携すると、取り戻せます。",
+  "@settingsWithdrawCreatorNote": {
+    "description": "退会：発信者のオーナーへの説明"
+  },
+  "settingsWithdrawSubscriptionNote": "退会しても、ストアのサブスクは解約されません。先に、サブスクの管理から解約してください。",
+  "@settingsWithdrawSubscriptionNote": {
+    "description": "退会：プランに加入中か、加入中かを読み込めないときの注意"
+  },
+  "settingsWithdrawManageSubscription": "サブスクの管理を開く",
+  "@settingsWithdrawManageSubscription": {
+    "description": "退会：ストアのサブスクの管理を開くボタン"
+  },
+  "creatorAdminProfileTypesLabel": "タイプ",
+  "@creatorAdminProfileTypesLabel": {
+    "description": "プロフィールの編集：タイプの欄の見出し"
+  },
+  "creatorAdminProfileTypesNote": "{count}つまで選べます。おすすめに使います。",
+  "@creatorAdminProfileTypesNote": {
+    "description": "プロフィールの編集：タイプの欄の注記",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "creatorAdminProfileTypesLoadFailed": "タイプを読み込めませんでした",
+  "@creatorAdminProfileTypesLoadFailed": {
+    "description": "プロフィールの編集：タイプを読み込めなかったとき"
+  },
+  "creatorAdminReclaimed": "{name}を取り戻しました",
+  "@creatorAdminReclaimed": {
+    "description": "取り戻し：取り戻せたときのスナックバー",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminReclaimNotReclaimable": "この発信者は、もう取り戻せません",
+  "@creatorAdminReclaimNotReclaimable": {
+    "description": "取り戻し：もう取り戻せないときのスナックバー"
+  },
+  "creatorAdminReclaimDuplicate": "連携したアカウントが、ほかの発信者で使われています",
+  "@creatorAdminReclaimDuplicate": {
+    "description": "取り戻し：連携したアカウントがほかの発信者で使われているときのスナックバー"
+  },
+  "creatorAdminReclaimFailed": "取り戻せませんでした。もう一度お試しください",
+  "@creatorAdminReclaimFailed": {
+    "description": "取り戻し：失敗したときのスナックバー"
+  },
+  "creatorAdminReclaimTitle": "発信者を取り戻せます",
+  "@creatorAdminReclaimTitle": {
+    "description": "取り戻しの案内：見出し"
+  },
+  "creatorAdminReclaimMessage": "連携したアカウントの発信者「{name}」（@{id}）は、オーナーの退会で、いまは追星に表示されていません。{date}までに取り戻すと、プロフィール・連携・予定が、そのまま戻ります。{plan}",
+  "@creatorAdminReclaimMessage": {
+    "description": "取り戻しの案内：説明。{plan} は、基本プランの発信者なら creatorAdminReclaimNeedsPlan、永年無料・運営・確認用なら空",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminReclaimNeedsPlan": "X連携プランに加入していたなら、取り戻したあとに、プランの画面の「購入を復元」で引き継げます。",
+  "@creatorAdminReclaimNeedsPlan": {
+    "description": "登録：取り戻しの案内の最後に添える文（基本プランの発信者のとき。X の連携の引き継ぎ）"
+  },
+  "creatorAdminReclaimAction": "取り戻す",
+  "@creatorAdminReclaimAction": {
+    "description": "取り戻しの案内：ボタン"
+  },
+  "commonPostKindTime": "{kind} ・ {time}",
+  "@commonPostKindTime": {
+    "description": "共通（投稿の行）：投稿の種類と、投稿からの時間を並べる",
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "commonServiceTime": "{service} ・ {time}",
+  "@commonServiceTime": {
+    "description": "共通（投稿の行）：SNS の名前と、投稿の時刻を並べる",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminProfileIdLabel": "ID",
+  "@creatorAdminProfileIdLabel": {
+    "description": "プロフィールの編集：ID の欄の見出し"
+  },
+  "creatorAdminDmTitle": "Instagram を DM で確認",
+  "@creatorAdminDmTitle": {
+    "description": "【仮】Instagram の DM での確認：シートの見出し"
+  },
+  "creatorAdminDmIntro": "Instagram のユーザー名を入れて、コードを出してください。そのアカウントから、運営の Instagram（@{account}）にコードを DM で送ると、運営が確かめて「確認済み」にします。",
+  "@creatorAdminDmIntro": {
+    "description": "【仮】Instagram の DM での確認：コードを出す前の説明。account は受け先",
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminDmUsernameLabel": "Instagram のユーザー名",
+  "@creatorAdminDmUsernameLabel": {
+    "description": "【仮】Instagram の DM での確認：ユーザー名の欄の見出し"
+  },
+  "creatorAdminDmRequest": "コードを出す",
+  "@creatorAdminDmRequest": {
+    "description": "【仮】Instagram の DM での確認：コードを出すボタン"
+  },
+  "creatorAdminDmTarget": "確かめるアカウント：@{account}",
+  "@creatorAdminDmTarget": {
+    "description": "【仮】Instagram の DM での確認：確かめるアカウント",
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminDmCopy": "コピー",
+  "@creatorAdminDmCopy": {
+    "description": "【仮】Instagram の DM での確認：コードをコピーするボタン"
+  },
+  "creatorAdminDmCopied": "コードをコピーしました",
+  "@creatorAdminDmCopied": {
+    "description": "【仮】Instagram の DM での確認：コピーしたときのスナックバー"
+  },
+  "creatorAdminDmSendTo": "送り先：@{account}",
+  "@creatorAdminDmSendTo": {
+    "description": "【仮】Instagram の DM での確認：DM の送り先",
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminDmOpen": "Instagram で DM を送る",
+  "@creatorAdminDmOpen": {
+    "description": "【仮】Instagram の DM での確認：Instagram を開くボタン"
+  },
+  "creatorAdminDmNote": "運営が確かめるまで、数日かかることがあります。コードの期限は {date} までです。",
+  "@creatorAdminDmNote": {
+    "description": "【仮】Instagram の DM での確認：コードを出したあとの注記。date は期限の日付",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminDmCancel": "取り消す",
+  "@creatorAdminDmCancel": {
+    "description": "【仮】Instagram の DM での確認：コードを取り消すボタン"
+  },
+  "creatorAdminDmInvalid": "Instagram のユーザー名を確かめてください",
+  "@creatorAdminDmInvalid": {
+    "description": "【仮】Instagram の DM での確認：ユーザー名の形が違うときのスナックバー"
+  },
+  "creatorAdminDmFailed": "コードを出せませんでした。もう一度お試しください",
+  "@creatorAdminDmFailed": {
+    "description": "【仮】Instagram の DM での確認：コードを出せないときのスナックバー"
+  },
+  "creatorAdminDmCancelFailed": "取り消せませんでした。もう一度お試しください",
+  "@creatorAdminDmCancelFailed": {
+    "description": "【仮】Instagram の DM での確認：取り消せないときのスナックバー"
+  },
+  "creatorAdminDmPending": "確認待ち",
+  "@creatorAdminDmPending": {
+    "description": "【仮】Instagram の DM での確認：アカウント連携の行の、確認を待っているチップ"
+  },
+  "eventRegisterTitle": "イベントの登録",
+  "@eventRegisterTitle": {
+    "description": "イベントの登録：画面の見出し"
+  },
+  "eventRegisterUrlLabel": "チケットの URL",
+  "@eventRegisterUrlLabel": {
+    "description": "イベントの登録：URL の欄の見出し"
+  },
+  "eventRegisterUrlHint": "チケットのページを開いて、タイトル・日時・会場を読み取ります。読み取れなかった項目は、手で入れてください。",
+  "@eventRegisterUrlHint": {
+    "description": "イベントの登録：URL の欄の補足"
+  },
+  "eventRegisterRead": "読み取る",
+  "@eventRegisterRead": {
+    "description": "イベントの登録：URL を読み取るボタン"
+  },
+  "eventRegisterReadDone": "読み取りました。内容を確かめてください",
+  "@eventRegisterReadDone": {
+    "description": "イベントの登録：読み取れたときのスナックバー"
+  },
+  "eventRegisterReadFailed": "読み取れませんでした。手で入れてください",
+  "@eventRegisterReadFailed": {
+    "description": "イベントの登録：読み取れなかったときのスナックバー"
+  },
+  "eventRegisterPerformance": "公演",
+  "@eventRegisterPerformance": {
+    "description": "イベントの登録：公演のカードの見出し"
+  },
+  "performancePickerTitle": "公演を選ぶ",
+  "@performancePickerTitle": {
+    "description": "公演を選ぶ（シート）：タイトル"
+  },
+  "performancePickerNote": "1つのイベントには、1つの公演を登録します。",
+  "@performancePickerNote": {
+    "description": "公演を選ぶ（シート）：注記"
+  },
+  "eventRegisterSaved": "イベントを登録しました",
+  "@eventRegisterSaved": {
+    "description": "イベントの登録：保存できたときのスナックバー"
+  },
+  "eventPageReaderRead": "このページから読み取る",
+  "@eventPageReaderRead": {
+    "description": "ページから読み取る：読み取るボタン"
+  },
+  "eventPageReaderNote": "表示しているページから、タイトル・日時・会場を読み取ります。",
+  "@eventPageReaderNote": {
+    "description": "ページから読み取る：ボタンの上の注記"
+  },
+  "eventPageReaderRegister": "このイベントを登録",
+  "@eventPageReaderRegister": {
+    "description": "ページから読み取る：公演の候補から開いたときの、登録のボタン"
+  },
+  "eventPageReaderCandidates": "このページのイベントから選ぶ（{count}件）",
+  "@eventPageReaderCandidates": {
+    "description": "ページから読み取る：ページにあったイベントへのリンクから選ぶボタン",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "eventCandidatesTitle": "イベントの候補",
+  "@eventCandidatesTitle": {
+    "description": "イベントの候補：画面の見出し"
+  },
+  "eventCandidatesNote": "押すとページを開きます。内容を確かめて、「このイベントを登録」を押してください。",
+  "@eventCandidatesNote": {
+    "description": "イベントの候補：一覧の上の注記"
+  },
+  "eventCandidatesRegistered": "登録済み",
+  "@eventCandidatesRegistered": {
+    "description": "イベントの候補：登録済みのチップ"
+  },
+  "eventPageReaderReadTime": "このページから時刻を読む",
+  "@eventPageReaderReadTime": {
+    "description": "ページから読み取る：公演の「ページから時刻を読む」から開いたときのボタン"
+  },
+  "eventCandidatesSavedTimeTbd": "イベントを登録しました。時刻未定の公演は、編集で時刻を足せます",
+  "@eventCandidatesSavedTimeTbd": {
+    "description": "イベントの候補：時刻未定の公演があるイベントを登録できたときのスナックバー"
+  },
+  "eventSearchTitle": "チケットサイトで探す",
+  "@eventSearchTitle": {
+    "description": "チケットサイトで探す：画面の見出しと、イベントの登録の行"
+  },
+  "eventSearchName": "アーティスト名",
+  "@eventSearchName": {
+    "description": "チケットサイトで探す：名前の入力欄"
+  },
+  "eventSearchNote": "チケットぴあ・イープラス・ローチケ・楽天チケットで、この名前のアーティストを探します。同じ名前の別の人も出るので、確かめてから選んでください。",
+  "@eventSearchNote": {
+    "description": "チケットサイトで探す：サイトの一覧の上の注記"
+  },
+  "eventRegisterTimeTbd": "時刻未定",
+  "@eventRegisterTimeTbd": {
+    "description": "イベントの登録：公演の、開演の時刻が決まっていないときのスイッチ"
+  },
+  "eventRegisterTimeTbdHint": "開演の時刻が決まっていない・分からない公演",
+  "@eventRegisterTimeTbdHint": {
+    "description": "イベントの登録：時刻未定のスイッチの説明"
+  },
+  "eventRegisterReadTime": "ページから時刻を読む",
+  "@eventRegisterReadTime": {
+    "description": "イベントの登録：時刻未定の公演の、公演のページを開いて時刻を読むボタン"
+  },
+  "eventRegisterTimeRead": "時刻を読み取りました",
+  "@eventRegisterTimeRead": {
+    "description": "イベントの登録：時刻を読み取れたときのスナックバー"
+  },
+  "eventRegisterTimeReadFailed": "時刻を読み取れませんでした",
+  "@eventRegisterTimeReadFailed": {
+    "description": "イベントの登録：時刻を読み取れなかったときのスナックバー"
+  },
+  "commonTimeTbd": "時刻未定",
+  "@commonTimeTbd": {
+    "description": "イベントの公演で、開演の時刻が決まっていないときの表示"
+  },
+  "commonScheduleDateTimeTbd": "{date} 時刻未定",
+  "@commonScheduleDateTimeTbd": {
+    "description": "共通：予定の詳細・イベントの詳細・イベントの管理の、イベントの公演で時刻未定のときの日時",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "eventSearchButton": "探す",
+  "@eventSearchButton": {
+    "description": "チケットサイトで探す：探すボタン"
+  },
+  "eventSearchNoArtist": "アーティストが見つかりませんでした",
+  "@eventSearchNoArtist": {
+    "description": "チケットサイトで探す：ヒットしたアーティストがないとき"
+  },
+  "eventCandidatesEmpty": "イベントが見つかりませんでした",
+  "@eventCandidatesEmpty": {
+    "description": "イベントの候補：アーティストのページにイベントがないとき"
+  },
+  "performanceCandidatesNote": "押すと公演のページを開きます。内容を確かめて、「このイベントを登録」を押してください。",
+  "@performanceCandidatesNote": {
+    "description": "公演の候補：一覧の上の注記"
+  },
+  "performanceCandidatesEmpty": "公演が見つかりませんでした",
+  "@performanceCandidatesEmpty": {
+    "description": "公演の候補：これからの公演が1つもないとき"
+  },
+  "performanceCandidatesLoading": "公演を集めています（{done}/{total}）",
+  "@performanceCandidatesLoading": {
+    "description": "公演の候補：イベントのページを開いているあいだの表示",
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "performanceCandidatesFailedEvents": "読み込めなかったページが {count} 件あります",
+  "@performanceCandidatesFailedEvents": {
+    "description": "公演の候補：開けなかったページがあるとき",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "performanceCandidatesTitle": "公演の候補",
+  "@performanceCandidatesTitle": {
+    "description": "公演の候補：画面の見出し"
+  },
+  "eventSearchShowPerformances": "公演を見る（{count}件）",
+  "@eventSearchShowPerformances": {
+    "description": "チケットサイトで探す：選んだアーティストの公演を見るボタン",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "eventSearchMaintenance": "メンテナンス中のため、いまは探せません",
+  "@eventSearchMaintenance": {
+    "description": "チケットサイトで探す：サイトがメンテナンス中のとき"
+  },
+  "eventSearchRakutenEvents": "「{name}」を含むイベント（{count}件）",
+  "@eventSearchRakutenEvents": {
+    "description": "チケットサイトで探す：楽天チケットの、名前を含むイベントの行",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "eventRegisterUpdated": "イベントを保存しました",
+  "@eventRegisterUpdated": {
+    "description": "イベントの編集：保存できたときのスナックバー"
+  },
+  "eventRegisterDuplicateLink": "このチケットリンクは、ほかのイベントで登録済みです",
+  "@eventRegisterDuplicateLink": {
+    "description": "イベントの登録：同じチケットのページを指すリンクが、ほかのイベントにあるとき"
+  },
+  "eventRegisterDeleteConfirmTitle": "このイベントを消しますか？",
+  "@eventRegisterDeleteConfirmTitle": {
+    "description": "イベントの編集：消す前の確認の見出し"
+  },
+  "eventRegisterDeleteConfirmMessage": "公演とチケットリンクも消えます。",
+  "@eventRegisterDeleteConfirmMessage": {
+    "description": "イベントの編集：消す前の確認の本文"
+  },
+  "eventEditTitle": "イベントの編集",
+  "@eventEditTitle": {
+    "description": "イベントの編集：画面の見出し"
+  },
+  "eventRegisterLinksLabel": "チケットリンク",
+  "@eventRegisterLinksLabel": {
+    "description": "イベントの登録：リンクの欄の見出し"
+  },
+  "eventRegisterAddLink": "＋ チケットリンクを足す",
+  "@eventRegisterAddLink": {
+    "description": "イベントの登録：リンクを足すボタン"
+  },
+  "eventRegisterRemoveLink": "このチケットリンクを消す",
+  "@eventRegisterRemoveLink": {
+    "description": "イベントの登録：リンクを消すボタンの読み上げ"
+  },
+  "eventRegisterDelete": "このイベントを消す",
+  "@eventRegisterDelete": {
+    "description": "イベントの編集：消す行"
+  },
+  "eventDetailOpenSite": "{site}で購入",
+  "@eventDetailOpenSite": {
+    "description": "イベントの詳細：リンクのボタン。site はサイトの名前（チケットぴあ・イープラスなど）",
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLinkAction": "リンクを共有",
+  "@shareLinkAction": {
+    "description": "発信者ページのメニュー・発信者メニュー：発信者の共有のリンクを共有する（仮）"
+  },
+  "shareLinkMessage": "{name}の配信と予定を、追星で追えます\n{link}",
+  "@shareLinkMessage": {
+    "description": "共有シートに渡す文。{name} は発信者の名前、{link} は共有のリンク",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLinkUnavailable": "ファンに見せていない状態のため、リンクを共有できません（確認済みのアカウントがない、または停止中です）",
+  "@shareLinkUnavailable": {
+    "description": "リンクの共有：発信者がファンに見せない状態のとき"
+  },
+  "shareLinkFailed": "リンクを共有できませんでした",
+  "@shareLinkFailed": {
+    "description": "リンクの共有：確かめられない・共有シートを開けないとき"
+  },
+  "shareLinkNotFound": "リンクの発信者が見つかりませんでした",
+  "@shareLinkNotFound": {
+    "description": "ホーム：共有のリンクから開いたが、発信者がない・ファンに見せない状態のとき"
+  },
+  "shareLinkTitle": "リンクを共有",
+  "@shareLinkTitle": {
+    "description": "「リンクを共有」の画面：タイトル"
+  },
+  "shareLinkShareButton": "リンクを共有する",
+  "@shareLinkShareButton": {
+    "description": "「リンクを共有」の画面：共有シートを開くボタン"
+  },
+  "shareLinkSaveQr": "QR を画像で保存・共有",
+  "@shareLinkSaveQr": {
+    "description": "「リンクを共有」の画面：QR の画像を共有シートに渡すボタン（「画像を保存」で写真に保存できる）"
+  },
+  "shareLinkNote": "リンクや QR から開いた人は、アプリが無ければ App Store へ進み、入れて開くとこの発信者をフォローした状態で始まります。アプリがあれば、このページへ進みます。",
+  "@shareLinkNote": {
+    "description": "「リンクを共有」の画面：下の注記"
+  },
+  "shareLinkCopied": "リンクをコピーしました",
+  "@shareLinkCopied": {
+    "description": "「リンクを共有」の画面：リンクを写したときのスナックバー"
+  },
+  "shareLinkCopy": "リンクをコピー",
+  "@shareLinkCopy": {
+    "description": "「リンクを共有」の画面：リンクの行のコピーの印（読み上げ）"
+  },
+  "shareLinkQrLabel": "共有のリンクの QR",
+  "@shareLinkQrLabel": {
+    "description": "「リンクを共有」の画面：QR の読み上げ"
+  },
+  "shareLinkUnavailableTitle": "まだ共有できません",
+  "@shareLinkUnavailableTitle": {
+    "description": "「リンクを共有」の画面：発信者がファンに見せない状態のときの見出し"
+  },
+  "wantTitle": "追いたい",
+  "@wantTitle": {
+    "description": "追いたい：ヘッダーのタイトル。推しを探すのヘッダーのアイコンの名前にも使う"
+  },
+  "wantIntro": "追星にまだいない人を、SNS の URL か ID で申告できます。その人が追星に来たら、お知らせして自動でフォローします。",
+  "@wantIntro": {
+    "description": "追いたい：上の説明"
+  },
+  "wantServiceLabel": "SNS（ID だけのときに選ぶ）",
+  "@wantServiceLabel": {
+    "description": "追いたい：SNS のチップのラベル"
+  },
+  "wantInputLabel": "URL か ID",
+  "@wantInputLabel": {
+    "description": "追いたい：入力欄のラベル"
+  },
+  "wantInputHint": "https://x.com/… や @ID",
+  "@wantInputHint": {
+    "description": "追いたい：入力欄のプレースホルダ"
+  },
+  "wantParsed": "申告する ID",
+  "@wantParsed": {
+    "description": "追いたい：読み取った ID の前のラベル"
+  },
+  "wantSubmit": "追いたい",
+  "@wantSubmit": {
+    "description": "追いたい：申告するボタン"
+  },
+  "wantPrivacyNote": "追星が持つのは、SNS と ID と押した人数だけです。誰が押したかは、ほかの人に見せません。",
+  "@wantPrivacyNote": {
+    "description": "追いたい：ボタンの下の注記"
+  },
+  "wantListTitle": "あなたの追いたい",
+  "@wantListTitle": {
+    "description": "追いたい：自分が押した一覧の見出し"
+  },
+  "wantListEmpty": "まだ追いたいはありません",
+  "@wantListEmpty": {
+    "description": "追いたい：自分が押した一覧が空のとき"
+  },
+  "wantCount": "{count}人が追いたい",
+  "@wantCount": {
+    "description": "追いたい：一覧の行の、押した人数（自分を含む）",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "wantUnverified": "本人確認なし",
+  "@wantUnverified": {
+    "description": "追いたい：一覧の行の、未登録のアカウントの印"
+  },
+  "wantCancel": "取り消す",
+  "@wantCancel": {
+    "description": "追いたい：一覧の行の、取り消すボタン"
+  },
+  "wantAdded": "追いたいにしました",
+  "@wantAdded": {
+    "description": "追いたい：押せたときのスナックバー"
+  },
+  "wantAlreadyHere": "この人は、もう追星にいます",
+  "@wantAlreadyHere": {
+    "description": "追いたい：確認済みのアカウントだったときのスナックバー（発信者ページを開く）"
+  },
+  "wantLimit": "今日はこれ以上申告できません",
+  "@wantLimit": {
+    "description": "追いたい：1日の上限に達したときのスナックバー"
+  },
+  "wantInvalid": "この形の URL は読めません",
+  "@wantInvalid": {
+    "description": "追いたい：URL・ID の形が分からないときのスナックバー"
+  },
+  "wantChooseService": "ID だけのときは、SNS を選んでください",
+  "@wantChooseService": {
+    "description": "追いたい：ID だけで SNS を選んでいないときのスナックバー"
+  },
+  "wantFailed": "申告できませんでした",
+  "@wantFailed": {
+    "description": "追いたい：送れなかったときのスナックバー"
+  },
+  "wantCancelFailed": "取り消せませんでした",
+  "@wantCancelFailed": {
+    "description": "追いたい：取り消せなかったときのスナックバー"
+  },
+  "oshiFindWantButton": "追いたいで申告する",
+  "@oshiFindWantButton": {
+    "description": "推しを探す（結果なし）：追いたいへ進むボタン"
+  },
+  "announceImageTitle": "週間の告知画像",
+  "@announceImageTitle": {
+    "description": "発信者メニュー・告知画像の画面：タイトル"
+  },
+  "announceImageThisWeek": "今週",
+  "@announceImageThisWeek": {
+    "description": "告知画像の画面：週を選ぶ"
+  },
+  "announceImageNextWeek": "来週",
+  "@announceImageNextWeek": {
+    "description": "告知画像の画面：週を選ぶ"
+  },
+  "announceImageShare": "画像とリンクを共有",
+  "@announceImageShare": {
+    "description": "告知画像の画面：共有シートを開くボタン"
+  },
+  "announceImageNote": "共有シートの「画像を保存」で、写真に保存できます。",
+  "@announceImageNote": {
+    "description": "告知画像の画面：下の注記"
+  },
+  "announceImageShareFailed": "画像を共有できませんでした",
+  "@announceImageShareFailed": {
+    "description": "告知画像の画面：共有できなかったときのスナックバー"
+  },
+  "announceImageChangePhoto": "画像を変える",
+  "@announceImageChangePhoto": {
+    "description": "週間の告知画像：アイコンの代わりに使う画像を、端末の写真から選ぶボタン"
+  },
+  "announceImageResetPhoto": "アイコンに戻す",
+  "@announceImageResetPhoto": {
+    "description": "週間の告知画像：選んだ画像を外して、アイコンに戻すボタン"
+  },
+  "announceImagePhotoNote": "画像は真ん中で切り抜きます。どのテンプレでも同じ画像を使います。",
+  "@announceImagePhotoNote": {
+    "description": "週間の告知画像：画像を変えるボタンの下の注記"
+  },
+  "announceImageRenderFailed": "画像を作れませんでした",
+  "@announceImageRenderFailed": {
+    "description": "週間の告知画像：サーバーで画像を作れなかったとき"
+  },
+  "announceImageRendering": "画像を作っています",
+  "@announceImageRendering": {
+    "description": "週間の告知画像：サーバーで画像を作っている間、見本の枠に出す文"
+  },
+  "announceImagePhotoFailed": "画像を変えられませんでした",
+  "@announceImagePhotoFailed": {
+    "description": "週間の告知画像：選んだ画像を上げられなかったとき（スナックバー）"
+  },
+  "announceShareHeading": "{name}の週間の予定（{range}）",
+  "@announceShareHeading": {
+    "description": "週間の告知画像と一緒に共有する文の見出し。range は 11/16–11/22 の形",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "announceShareInvite": "▼追星で通知を受け取る",
+  "@announceShareInvite": {
+    "description": "共有する文の最後、誘う用のリンクの前に置く1行"
+  },
+  "announceShareTextLabel": "一緒に共有する文",
+  "@announceShareTextLabel": {
+    "description": "週間の告知画像の画面で、共有する文の見本の見出し"
+  },
+  "announceShareCopy": "文をコピー",
+  "@announceShareCopy": {
+    "description": "共有する文をクリップボードに写すボタン"
+  },
+  "announceShareCopied": "文をコピーしました",
+  "@announceShareCopied": {
+    "description": "共有する文をコピーしたときのスナックバー"
+  },
+  "announceShareInstagramNote": "Instagram では文が投稿に入りません。「文をコピー」で写して、キャプションに貼り付けてください。",
+  "@announceShareInstagramNote": {
+    "description": "週間の告知画像の画面の注記"
+  },
+  "announceLinkCountsLabel": "リンクが押された数",
+  "@announceLinkCountsLabel": {
+    "description": "週間の告知画像：共有の文のリンクが押された数の見出し"
+  },
+  "announceLinkInvite": "追星に誘うリンク",
+  "@announceLinkInvite": {
+    "description": "週間の告知画像：押された数の行で、誘う用のリンクの名前"
+  },
+  "announceLinkCount": "{count}回",
+  "@announceLinkCount": {
+    "description": "週間の告知画像：リンクが押された数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reachTitle": "届いた数",
+  "@reachTitle": {
+    "description": "発信者メニュー・数の画面：タイトル"
+  },
+  "reachLast30Days": "直近30日（{from}〜{to}）",
+  "@reachLast30Days": {
+    "description": "数の画面：合計の見出し。{from}・{to} は期間の最初と最後の日",
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "reachDelivered": "通知を届けた人",
+  "@reachDelivered": {
+    "description": "数の画面：通知を届けた人数"
+  },
+  "reachOpened": "通知から来た人",
+  "@reachOpened": {
+    "description": "数の画面：通知から開いた人数"
+  },
+  "reachViewed": "予定を見た人",
+  "@reachViewed": {
+    "description": "数の画面：予定の詳細を開いた人数"
+  },
+  "reachFollowers": "フォロワー",
+  "@reachFollowers": {
+    "description": "数の画面：期間の最後の日のフォロワー数"
+  },
+  "reachFollowChange": "30日で {change}（フォロー {followed}・解除 {unfollowed}）",
+  "@reachFollowChange": {
+    "description": "数の画面：フォロワーの増減",
+    "placeholders": {
+      "change": {
+        "type": "String"
+      },
+      "followed": {
+        "type": "int"
+      },
+      "unfollowed": {
+        "type": "int"
+      }
+    }
+  },
+  "reachBySubject": "配信・予定ごと",
+  "@reachBySubject": {
+    "description": "数の画面：配信・予定ごとの見出し"
+  },
+  "reachBySubjectEmpty": "まだありません。配信開始や予定の通知を送ると、ここに数が出ます。",
+  "@reachBySubjectEmpty": {
+    "description": "数の画面：配信・予定ごとの数がないとき"
+  },
+  "reachKindLive": "配信",
+  "@reachKindLive": {
+    "description": "数の画面：配信の行の種類"
+  },
+  "reachKindSchedule": "予定",
+  "@reachKindSchedule": {
+    "description": "数の画面：予定の行の種類"
+  },
+  "reachDeletedSchedule": "消された予定",
+  "@reachDeletedSchedule": {
+    "description": "数の画面：消された予定の行のタイトル"
+  },
+  "reachCountDelivered": "届けた {count}",
+  "@reachCountDelivered": {
+    "description": "数の画面：配信・予定ごとの届けた人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reachCountOpened": "来た {count}",
+  "@reachCountOpened": {
+    "description": "数の画面：配信・予定ごとの通知から来た人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reachCountViewed": "見た {count}",
+  "@reachCountViewed": {
+    "description": "数の画面：予定ごとの見た人数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reachNote": "数は毎日0時すぎに、前の日までの分を足します。人数はその日ごとに数え、誰が見たかは出しません。投稿の数は、誰が見たかを残さずに回数だけを数えます。チームメンバー自身が見た分は、どの数にも入りません。",
+  "@reachNote": {
+    "description": "数の画面：下の注記"
+  },
+  "reachPosts": "投稿",
+  "@reachPosts": {
+    "description": "数の画面：投稿が見られた数の見出し（届ける・広める仕様書 4.2.3）"
+  },
+  "reachPostShown": "投稿が表示された回数",
+  "@reachPostShown": {
+    "description": "数の画面：投稿のカードが画面に出た回数の行"
+  },
+  "reachPostOpened": "投稿を開いた回数",
+  "@reachPostOpened": {
+    "description": "数の画面：投稿ビューアで投稿が出た回数の行"
+  },
+  "creatorLinksTitle": "SNSリンク集",
+  "@creatorLinksTitle": {
+    "description": "発信者メニュー・リンク集の画面：タイトル"
+  },
+  "creatorLinksLead": "発信者ページと共有のページに、ボタンで並びます。",
+  "@creatorLinksLead": {
+    "description": "リンク集：上の説明"
+  },
+  "creatorLinksEmpty": "まだリンクがありません。好きなリンクを足すと、発信者ページに並びます。",
+  "@creatorLinksEmpty": {
+    "description": "リンク集：1件もないとき"
+  },
+  "creatorLinksAdd": "リンクを追加",
+  "@creatorLinksAdd": {
+    "description": "リンク集：追加のボタンとシートの見出し"
+  },
+  "creatorLinksEdit": "リンクを編集",
+  "@creatorLinksEdit": {
+    "description": "リンクの編集のシート：見出し"
+  },
+  "creatorLinksClicks": "{count}回",
+  "@creatorLinksClicks": {
+    "description": "リンク集：押された数",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorLinksShareButton": "共有",
+  "@creatorLinksShareButton": {
+    "description": "リンク集の着地の画面の、公開のページの URL を共有シートに渡すボタン（画面定義書（設定・発信者）2.3.17）"
+  },
+  "creatorLinksEditButton": "編集",
+  "@creatorLinksEditButton": {
+    "description": "リンク集の着地の画面の、リンク集の編集（2.3.19）を開くボタン"
+  },
+  "creatorLinksEditTitle": "リンク集を編集",
+  "@creatorLinksEditTitle": {
+    "description": "リンク集の編集の画面：タイトル（画面定義書（設定・発信者）2.3.19）"
+  },
+  "creatorLinksPreviewOpen": "ページの全体を表示",
+  "@creatorLinksPreviewOpen": {
+    "description": "SNSリンク集の画面：見本の読み上げの名前（押すと全体の画面）"
+  },
+  "creatorLinksPageAppLead": "追星アプリなら、{name}の配信が始まったら通知で知らせます。",
+  "@creatorLinksPageAppLead": {
+    "description": "リンク集のページの全体の画面：下の追星への入口の説明（公開のページと同じ文）",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorLinksPageInstall": "App Store で入れる",
+  "@creatorLinksPageInstall": {
+    "description": "リンク集のページの全体の画面：下の追星への入口のボタン（押せない。公開のページと同じ文）"
+  },
+  "creatorLinksPageInstallNote": "入れて開くと、このページの発信者が出ます。",
+  "@creatorLinksPageInstallNote": {
+    "description": "リンク集のページの全体の画面：App Store のボタンの下の注記（公開のページと同じ文）"
+  },
+  "creatorLinksPageOpenApp": "アプリをお持ちの方はこちら",
+  "@creatorLinksPageOpenApp": {
+    "description": "リンク集のページの全体の画面：アプリで開くの文字（押せない。公開のページと同じ文）"
+  },
+  "creatorLinksClicksLabel": "押された数",
+  "@creatorLinksClicksLabel": {
+    "description": "リンク集の着地の画面：リンクごとの押された数の見出し"
+  },
+  "creatorLinksClicksEmpty": "まだリンクがありません",
+  "@creatorLinksClicksEmpty": {
+    "description": "リンク集の着地の画面：リンクが1件もないときの、押された数の所の一言"
+  },
+  "creatorLinksNote": "押された数は、アプリと共有のページで押された回数の合計です。URL を変えると0に戻ります。誰が押したかは出しません。",
+  "@creatorLinksNote": {
+    "description": "リンク集：下の注記"
+  },
+  "creatorLinksLimit": "リンクは{max}件までです",
+  "@creatorLinksLimit": {
+    "description": "リンク集：上限に達したとき",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "creatorLinksTitleLabel": "題名",
+  "@creatorLinksTitleLabel": {
+    "description": "リンクのシート：題名の欄"
+  },
+  "creatorLinksTitleHint": "例：ファンクラブ",
+  "@creatorLinksTitleHint": {
+    "description": "リンクのシート：題名の欄の例"
+  },
+  "creatorLinksUrlLabel": "URL",
+  "@creatorLinksUrlLabel": {
+    "description": "リンクのシート：URL の欄"
+  },
+  "creatorLinksUrlNote": "https で始まる URL だけ使えます。短縮 URL（bit.ly など）は使えません。",
+  "@creatorLinksUrlNote": {
+    "description": "リンクのシート：URL の注記"
+  },
+  "creatorLinksTitleRequired": "題名を入れてください",
+  "@creatorLinksTitleRequired": {
+    "description": "リンクのシート：題名が空"
+  },
+  "creatorLinksTitleTooLong": "{max}文字までです",
+  "@creatorLinksTitleTooLong": {
+    "description": "リンクのシート：題名が長すぎる",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "creatorLinksUrlInvalid": "https で始まる URL を入れてください",
+  "@creatorLinksUrlInvalid": {
+    "description": "リンクのシート：URL の形が違う"
+  },
+  "creatorLinksShortUrl": "短縮 URL は使えません。行き先の URL をそのまま入れてください",
+  "@creatorLinksShortUrl": {
+    "description": "リンクのシート：短縮 URL"
+  },
+  "creatorLinksDeleteTitle": "「{title}」を消しますか？",
+  "@creatorLinksDeleteTitle": {
+    "description": "リンク集：削除の確認の見出し",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorLinksDeleteMessage": "押された数も消えます。",
+  "@creatorLinksDeleteMessage": {
+    "description": "リンク集：削除の確認の本文"
+  },
+  "creatorLinksDelete": "削除",
+  "@creatorLinksDelete": {
+    "description": "リンク集：削除のボタン"
+  },
+  "creatorLinkReport": "このリンクを通報する",
+  "@creatorLinkReport": {
+    "description": "発信者ページ：リンクを開く前の確かめの、通報のボタン"
+  },
+  "creatorLinksAddShort": "追加",
+  "@creatorLinksAddShort": {
+    "description": "リンク集の編集：ヘッダーの追加のボタン"
+  },
+  "creatorAdminMenuSnsNote": "連携・表示する内容",
+  "@creatorAdminMenuSnsNote": {
+    "description": "発信者メニュー・連携：「SNS」の行の小さな説明（2026-11-19 本人）"
+  },
+  "creatorAdminSnsTitle": "SNS",
+  "@creatorAdminSnsTitle": {
+    "description": "発信者メニューの「SNS」と、その画面のタイトル（SNS の連携と、出す内容の切り替えをまとめた画面。2026-11-19 本人）"
+  },
+  "creatorAdminMenuReachSummary": "直近30日で {count}人に通知を届けました",
+  "@creatorAdminMenuReachSummary": {
+    "description": "発信者メニューのプロフィールカードの中の、届いた数の要約。押すと届いた数の画面",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "creatorAdminMenuLinks": "SNSリンク集",
+  "@creatorAdminMenuLinks": {
+    "description": "発信者メニュー・シェア：リンク集の画面を開く行（2026-11-19 本人）"
+  },
+  "creatorAdminMenuSectionShare": "シェア",
+  "@creatorAdminMenuSectionShare": {
+    "description": "発信者メニュー：見出し（リンクを共有・追星に誘う・週間の告知画像）"
+  },
+  "shareInviteTitle": "追星に誘う",
+  "@shareInviteTitle": {
+    "description": "発信者メニューの行・「追星に誘う」の画面のタイトル"
+  },
+  "shareInviteMessage": "追星で私の配信・予定を追いかけてね\n{link}",
+  "@shareInviteMessage": {
+    "description": "「追星に誘う」：共有シートに渡す文",
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "shareInviteNote": "このリンクから追星を入れて開いた人は、あなたをフォローした状態で始まります。",
+  "@shareInviteNote": {
+    "description": "「追星に誘う」：下の注記"
+  },
+  "onboardingInviteFollowed": "{name}をフォローしました",
+  "@onboardingInviteFollowed": {
+    "description": "誘う用のリンクから入れて初めて開いたとき：自動でフォローしたことの知らせ",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FDF9F3</color>
+    <!-- 通知のアイコンの色（アプリの主な色） -->
+    <color name="notification_color">#525CA5</color>
+</resources>
